@@ -1,0 +1,2998 @@
+[
+  {
+    "id": "ages-of-harvest",
+    "name": {
+      "ko": "태평성대",
+      "en": "Ages of Harvest"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "신의 가호",
+        "en": "Divine Blessing"
+      },
+      "description": {
+        "ko": "전체 속성 피해 보너스가 {0} 증가한다. 변주 스킬 발동 시, 자신이 「가호」를 획득하게 되고, 공명 스킬 피해 보너스를 {1} 증가시키며, {2}초간 지속된다. 공명 스킬 발동 시, 자신이 「축복」을 획득하게 되고, 공명 스킬 피해 보너스를 {3} 증가시키며, {4}초간 지속된다",
+        "en": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for {2}s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {3} Resonance Skill DMG Bonus for {4}s."
+      },
+      "stats": [
+        {
+          "type": "aeroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "glacioDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "fusionDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "electroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "havocDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "spectroDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "kumokiri",
+    "name": {
+      "ko": "쿠모키리(曇斬)",
+      "en": "Kumokiri"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.36
+    },
+    "passive": {
+      "name": {
+        "ko": "생명의 현",
+        "en": "Thread of Fate"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 발동 혹은 「이상 효과」 추가 시, 자신의 공명 해방 피해 보너스가 {1} 증가되고 최대 {2}스택까지 중첩이 가능하며 {3}초간 지속된다.\n해당 효과가 스택 최대치까지 중첩될 경우, 파티 내 캐릭터가 「이상 효과」 추가 시 해당 캐릭터의 전체 속성 피해 보너스가 {4} 증가되고, {5}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+        "en": "ATK is increased by {0}. When the wielder casts Intro Skill or inflicts Negative Statuses, they gain {1} Resonance Liberation DMG Bonus, stacking up to {2} times for {3}s.\nAt max stacks, when Resonators in the team inflict Negative Statuses, they gain {4} All-Attribute DMG Bonus for {5}s. Effects of the same name cannot be stacked."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "lustrous-razor",
+    "name": {
+      "ko": "푸른물결의 빛",
+      "en": "Lustrous Razor"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3645
+    },
+    "passive": {
+      "name": {
+        "ko": "밀려오는 파도",
+        "en": "Stormy Resolution"
+      },
+      "description": {
+        "ko": "공명 효율 {0} 증가. 공명 스킬 발동 시, 공명 해방 피해 보너스가 {1} 증가하고, 최대 {2}스택 중첩이 가능하며, {3}초간 지속된다",
+        "en": "Increases Energy Regen by {0}. When Resonance Skill is cast, Resonance Liberation DMG Bonus is increased by {1}, stacking up to {2} times. This effect lasts for {3}s."
+      },
+      "stats": [
+        {
+          "type": "energyRegen",
+          "value": 0.128
+        }
+      ]
+    }
+  },
+  {
+    "id": "radiance-cleaver",
+    "name": {
+      "ko": "에너지 절단",
+      "en": "Radiance Cleaver"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.486
+    },
+    "passive": {
+      "name": {
+        "ko": "개척자",
+        "en": "Edge Breaker"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 「조화 밀집 · 간섭」 상태에 있는 목표에게 피해를 입힌 후, 공명 해방 피해 보너스가 {1} 증가되고 {2}초간 지속된다. 중복 발생 시 지속 시간이 리셋된다",
+        "en": "Increases ATK by {0}. Dealing damage to targets under Tune Strain - Interfered grants {1} Resonance Liberation Bonus for {2}s. Retriggering the effect resets its duration."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "starfield-calibrator",
+    "name": {
+      "ko": "별하늘 연산 측정기",
+      "en": "Starfield Calibrator"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.7704
+    },
+    "passive": {
+      "name": {
+        "ko": "운명의 해답",
+        "en": "Definite Solution"
+      },
+      "description": {
+        "ko": "방어력이 {0} 증가된다. 공명 스킬 발동 시, 자신의 협주 에너지를 {1}pt 회복하며, {2}초마다 {3}회 발생할 수 있다. 치료 효과 발동 시, 근처 파티 내 모든 캐릭터의 크리티컬 피해를 {4} 증가시키며, {5}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+        "en": "Increases DEF by {0}. Casting Resonance Liberation restores {1} points of Concerto Energy. This effect can be triggered <SapTag=3>{3}</SapTag> {Cus:Sap,S=time P=times SapTag=3} every {2}s. When the wielder heals Resonators, increases Crit. DMG of all nearby Resonators in the team by {4} for {5}s. Effects of the same name cannot be stacked."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "thunderflare-dominion",
+    "name": {
+      "ko": "천둥벼락을 다스리는 권능",
+      "en": "Thunderflare Dominion"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 675
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.1215
+    },
+    "passive": {
+      "name": {
+        "ko": "불타오른 권력",
+        "en": "Thunderblaze Eminence"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 혹은 공명 스킬 발동 시, 강공격 피해가 {1} 증가되고 {2}초간 지속된다.\n자신이 실드를 획득할 시 강공격 피해는 목표의 {3} 방어력을 무시한다. 해당 효과는 0.5초마다 1회만 적용하며, 최대 {4}스택 중첩이 가능하고 {5}초간 지속된다",
+        "en": "Increases ATK by {0}. Casting Intro Skill or Resonance Skill increases Heavy Attack DMG by {1} for {2}s. Obtaining Shield allows Heavy Attack DMG to ignore {3} of the target's DEF for {5}s, stacking up to {4} times. This effect is triggered once every 0.5s"
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "verdant-summit",
+    "name": {
+      "ko": "청룡의 천장",
+      "en": "Verdant Summit"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.486
+    },
+    "passive": {
+      "name": {
+        "ko": "용맹무쌍",
+        "en": "Swordsworn"
+      },
+      "description": {
+        "ko": "전체 속성 피해 보너스가 {0} 증가한다. 변주 스킬 또는 공명 해방을 발동할 때마다, 자신의 강공격 피해 보너스가 {1} 증가하고, {2}스택 중첩이 가능하며, {3}초간 지속된다",
+        "en": "Increases Attribute DMG Bonus by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s."
+      },
+      "stats": [
+        {
+          "type": "aeroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "glacioDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "fusionDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "electroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "havocDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "spectroDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "wildfire-mark",
+    "name": {
+      "ko": "불길",
+      "en": "Wildfire Mark"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.486
+    },
+    "passive": {
+      "name": {
+        "ko": "눈부신 불빛",
+        "en": "Blazing Starfire"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 혹은 공명 해방 발동 시, 공명 해방 피해가 {1} 증가되고 {2}초간 지속된다. 강공격 피해를 입힐 시, 해당 효과는 {3}초간 연장되며 최대 {4}회 연장할 수 있다. 효과 연장에 성공 시, 파티 내 캐릭터의 용융 피해 보너스가 {5} 증가되고 {6}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+        "en": "Increases ATK by {0}. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for {2}s. Dealing Heavy Attack DMG extends this effect by {3}s, up to {4} time. Each successful extension gives {5} Fusion DMG Bonus to all Resonators in the team for {6}s. Effects of the same name cannot be stacked."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "abyss-surges",
+    "name": {
+      "ko": "물결의 파동",
+      "en": "Abyss Surges"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3645
+    },
+    "passive": {
+      "name": {
+        "ko": "죽음의 심연",
+        "en": "Stormy Resolution"
+      },
+      "description": {
+        "ko": "공명 효율 {0} 증가. 공명 스킬을 사용하여 피해를 입힐 경우, 일반 공격 피해 보너스가 {1} 증가하며, {2}초간 지속된다. 일반 공격을 사용하여 피해를 입힐 경우, 공명 스킬 피해 보너스가 {3} 증가하며, {4}초간 지속된다",
+        "en": "Increases Energy Regen by {0}. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by {1}, lasting for {2}s. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by {3}, lasting for {4}s."
+      },
+      "stats": [
+        {
+          "type": "energyRegen",
+          "value": 0.128
+        }
+      ]
+    }
+  },
+  {
+    "id": "blazing-justice",
+    "name": {
+      "ko": "불빛의 심판",
+      "en": "Blazing Justice"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.486
+    },
+    "passive": {
+      "name": {
+        "ko": "어둠을 파괴하는 자",
+        "en": "Darkness Breaker"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 일반 공격 발동 시 다음과 같은 효과를 획득한다. 자신이 입히는 피해가 목표의 방어력을 {1} 무시하며, 동시에 자신이 직접 입히는 「광학 효과」 피해가 {2} 부스트되고, {3}초간 지속된다. 중복 획득 시, 지속 시간이 리셋된다",
+        "en": "Increases ATK by {0}. Casting Basic Attack grants the following effects: Dealing damage ignores {1} of the target's DEF and Amplifies Spectro Frazzle DMG dealt by {2} for {3}s. Retriggering the effect resets its duration."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "daybreakers-spine",
+    "name": {
+      "ko": "한낮의 의지",
+      "en": "Daybreaker's Spine"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "봉합된 새벽과 황혼",
+        "en": "Suturing Dayline"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 일반 공격 피해를 입힌 후, 회절 피해 보너스가 {1} 증가되고, {2}초간 지속된다. 매번 적에게 「조화 밀집 · 이탈」을 추가 후, 일반 공격 피해가 {3} 부스트되고, 일반 공격 피해가 목표의 {4} 방어력을 무시하며, {5}초간 지속된다",
+        "en": "Increases ATK by {0}. After dealing Basic Attack DMG, the wielder gains {1} Spectro DMG Bonus for {2}s. Each time after the wielder inflicts Tune Strain - Shifting on the target, they gain {3} Basic Attack DMG Amplification and their Basic Attack DMG ignores {4} of the target's DEF for {5}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "moongazers-sigil",
+    "name": {
+      "ko": "세상 만물의 진리",
+      "en": "Moongazer's Sigil"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.36
+    },
+    "passive": {
+      "name": {
+        "ko": "만물을 연결하는 달",
+        "en": "Plenilune Radiance"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 혹은 공명 해방 발동 시, 공명 해방 피해가 {1} 증가되고, {2}초간 지속된다. 자신이 실드를 획득할 시: 공명 해방 피해는 목표의 {3} 방어력을 무시한다. 해당 효과는 {4}초마다 1회만 적용하며, 최대 {5}스택 중첩이 가능하고 {6}초간 지속된다. 변주 스킬 발동 시, 목표의 방어력을 무시하는 효과가 최대 스택으로 간주되고 {7}초간 지속된다",
+        "en": "Increases ATK by {0}. Casting Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for {2}s. Obtaining Shield allows Resonance Liberation DMG to ignore {3} of the target's DEF for {6}s, stacking up to {5} times. This effect is triggered once every {4}s. Upon casting Intro Skill, this effect reaches max stacks immediately, lasting for {7}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "pulsation-bracer",
+    "name": {
+      "ko": "격동의 조력",
+      "en": "Pulsation Bracer"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "돌파자",
+        "en": "Barrier Breacher"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 「조화 밀집 · 간섭」 상태에 있는 목표에게 피해를 입힌 후, 일반 공격 피해 보너스가 {1} 증가되고, {2}초간 지속되며, 최대 {3}스택까지 중첩이 가능하다. 해당 효과는 {4}초마다 {5}회 발생할 수 있으며, 중복 발생 시 지속 시간이 리셋된다",
+        "en": "Increases ATK by {0}. Dealing damage to targets under Tune Strain - Interfered grants {1} Basic Attack DMG Bonus for {2}s, stacking up to {3} times. This effect can be triggered <SapTag=5>{5}</SapTag> {Cus:Sap,S=time P=times SapTag=5} every {4}s. Retriggering the effect resets its duration."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "solsworn-ciphers",
+    "name": {
+      "ko": "솔스원의 해석",
+      "en": "Solsworn Ciphers"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.486
+    },
+    "passive": {
+      "name": {
+        "ko": "근일점",
+        "en": "Sunward"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 혹은 에코 어빌리티 발동 시, 에코 어빌리티 피해가 {1} 부스트되고, {2}초간 지속된다. 에코 어빌리티 피해를 입힐 시, 기류 피해는 목표의 {3} 방어력을 무시하고, {4}초간 지속된다",
+        "en": "Increases ATK by {0}. Casting Intro Skill or Echo Skill grants {1} Echo Skill DMG Amplification for {2}s. When dealing Echo Skill DMG, Aero DMG ignores {3} of the target's DEF for {4}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "tragicomedy",
+    "name": {
+      "ko": "희비극",
+      "en": "Tragicomedy"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "우인의 노래",
+        "en": "Fool's Warble"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 일반 공격 혹은 변주 스킬 발동 시, 자신의 강공격 피해 보너스가 {1} 증가되며, {2}초간 지속된다",
+        "en": "Increases ATK by {0}. Every time Basic Attack or Intro Skill is cast, Heavy Attack DMG Bonus increases by {1} for {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "veritys-handle",
+    "name": {
+      "ko": "팔방의 천추",
+      "en": "Verity's Handle"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "근원의 추적",
+        "en": "Ad Veritatem"
+      },
+      "description": {
+        "ko": "전체 속성 피해 보너스가 {0} 증가된다. 공명 해방 발동 시,  자신의 공명 해방 피해 보너스가 {1} 증가되며, {2}초간 지속된다. 공명 스킬 발동 시, 해당 효과가 {3}초 연장되며, 최대 {4}회 연장이 가능하다",
+        "en": "Gain {0} Attribute DMG Bonus. When using Resonance Liberation, the wielder gains {1} Resonance Liberation DMG Bonus for {2}s. This effect can be extended by {3}s each time Resonance Skills are cast, up to {4} times."
+      },
+      "stats": [
+        {
+          "type": "aeroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "glacioDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "fusionDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "electroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "havocDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "spectroDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "lux-&-umbra",
+    "name": {
+      "ko": "얽혀진 빛과 그림자",
+      "en": "Lux & Umbra"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.486
+    },
+    "passive": {
+      "name": {
+        "ko": "불의 귀환",
+        "en": "To Fire She Returns"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 에코 어빌리티 피해를 입힐 시, 강공격 피해가 {1} 부스트되고 {2}초간 지속된다. 강공격 피해를 입힐 시, 에코 어빌리티 피해가 {3} 부스트되고, {4}초간 지속된다. 단일 공격으로 최대 {5}의 피해 부스트 효과를 얻는다. 두 가지 효과를 동시에 보유한 경우, 피해를 입힐 시 목표의 {6} 방어력을 무시한다",
+        "en": "ATK is increased by {0}. Upon dealing Echo Skill DMG, gain {1} Heavy Attack DMG Amplification for {2}s. Upon dealing Heavy Attack DMG, gain {3} Echo Skill DMG Amplification for {4}s. DMG Amplification on each attack is capped at {5}. While both effects are active, dealing damage ignores {6} of the target's DEF."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "phasic-homogenizer",
+    "name": {
+      "ko": "위상의 파동",
+      "en": "Phasic Homogenizer"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.486
+    },
+    "passive": {
+      "name": {
+        "ko": "통찰자",
+        "en": "Insight Bearer"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 파티 내 캐릭터가 「조화도 파괴 스킬」을 발동한 후, 자신의 전체 속성 피해 보너스가 {1} 증가되고, {2}초간 지속된다",
+        "en": "Increases ATK by {0}. After a Resonator in the team casts a Tune Break skill, it grants {1} All-Attribute DMG Bonus to the wielder for {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "spectrum-blaster",
+    "name": {
+      "ko": "스펙트럼 블래스터",
+      "en": "Spectrum Blaster"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "출석 면제 프로토콜",
+        "en": "Attendance Exemption Protocol"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 발동 혹은 일반 공격 피해로 목표 명중 시, 자신의 일반 공격 피해 보너스를 {1} 증가시키고, {2}초간 지속된다. 자신이 일반 공격 스킬을 발동하는 기간마다 목표에게 「조화 파동 · 이탈」 혹은 「조화 밀집 · 이탈」을 추가 시, 파티 내 캐릭터가 입히는 피해를 {3} 증가시키고, 최대 {4}스택까지 중첩 가능하며, {5}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+        "en": "Increases ATK by {0}. Casting Intro Skill or dealing Basic Attack DMG to targets increases the wielder's Basic Attack DMG Bonus by {1} for {2}s. Each time the wielder inflicts Tune Rupture - Shifting or Tune Strain - Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by {3} for {5}s, up to {4} stacks. Effects of the same name cannot be stacked."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "static-mist",
+    "name": {
+      "ko": "부동의 안개",
+      "en": "Static Mist"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "지옥의 징벌",
+        "en": "Stormy Resolution"
+      },
+      "description": {
+        "ko": "공명 효율이 {0} 증가한다. 반주 스킬 발동 후, 등장 캐릭터의 공격력이 {1} 증가하고, 최대 {2}스택 중첩이 가능하며, {3}초간 지속된다",
+        "en": "Increases Energy Regen by {0}. Incoming Resonator's ATK is increased by {1} for {3}s, stackable for up to {2} times after the wielder casts Outro Skill."
+      },
+      "stats": [
+        {
+          "type": "energyRegen",
+          "value": 0.128
+        }
+      ]
+    }
+  },
+  {
+    "id": "the-last-dance",
+    "name": {
+      "ko": "죽음과 춤",
+      "en": "The Last Dance"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.72
+    },
+    "passive": {
+      "name": {
+        "ko": "침묵 속의 추도사",
+        "en": "Silent Eulogy"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 혹은 공명 해방 발동 시, 자신의 공명 스킬 피해 보너스가 {1} 증가되며, {2}초간 지속된다",
+        "en": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "woodland-aria",
+    "name": {
+      "ko": "숲속의 아리아",
+      "en": "Woodland Aria"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.36
+    },
+    "passive": {
+      "name": {
+        "ko": "한여름의 찬송가",
+        "en": "Lingering Summer Tune"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 목표에게 「풍식 효과」를 추가한 후, 자신의 기류 피해 보너스가 {1} 증가되고 {2}초간 지속된다. 공격으로 「풍식 효과」가 있는 목표 명중 시, 목표의 기류 저항을 {3} 감소시키고, {4}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+        "en": "ATK is increased by {0}. Inflicting Aero Erosion on the target gives {1} Aero DMG Bonus for {2}s. Hitting targets with Aero Erosion reduces their Aero RES by {3} for {4}s. Effects of the same name cannot be stacked."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "boson-astrolabe",
+    "name": {
+      "ko": "보손 관측기",
+      "en": "Boson Astrolabe"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 525
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3888
+    },
+    "passive": {
+      "name": {
+        "ko": "관측자",
+        "en": "Path Observer"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 파티 내 캐릭터가 「조화도 파괴 스킬」을 발동한 후, 자신의 공격력이 {1} 증가되고, 일반 공격 피해 보너스가 {2} 증가되며, {3}초간 지속된다",
+        "en": "Increases ATK by {0}. After a Resonator in the team casts a Tune Break skill, it grants a {1} ATK increase and {2} Basic Attack DMG Bonus to the wielder for {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "cosmic-ripples",
+    "name": {
+      "ko": "파도의 기록",
+      "en": "Cosmic Ripples"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.54
+    },
+    "passive": {
+      "name": {
+        "ko": "끝없는 물결",
+        "en": "Stormy Resolution"
+      },
+      "description": {
+        "ko": "공명 효율 {0} 증가. 일반 공격을 사용하여 피해를 입힐 경우, 일반 공격 피해 보너스가 {1} 증가하고, 최대 {2}스택 중첩이 가능하며, {3}초간 지속되고, {4}초마다 {5}회 발생할 수 있다",
+        "en": "Increases Energy Regen by {0}. When dealing Basic Attack DMG, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered {5} time(s) every {4}s."
+      },
+      "stats": [
+        {
+          "type": "energyRegen",
+          "value": 0.128
+        }
+      ]
+    }
+  },
+  {
+    "id": "lethean-elegy",
+    "name": {
+      "ko": "잊혀진 피안의 슬픈 악장",
+      "en": "Lethean Elegy"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "진혼곡",
+        "en": "Underworld Requiem"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 에코 어빌리티 피해를 입힌 후 {1}초 내에, 공명 스킬 피해 보너스가 {2} 증가되고, 에코 어빌리티 피해가 {3} 부스트되며, 피해를 입힐 시 목표의 방어력을 {4} 무시한다",
+        "en": "ATK is increased by {0}. Within {1}s after dealing Echo Skill DMG, gain {2} Resonance Skill DMG Bonus and {3} Echo Skill DMG Amplification, and ignore {4} of the target's DEF when dealing damage."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "luminous-hymn",
+    "name": {
+      "ko": "광휘의 찬송가",
+      "en": "Luminous Hymn"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.36
+    },
+    "passive": {
+      "name": {
+        "ko": "단결자의 찬가",
+        "en": "Homebuilder's Anthem"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 「광학 효과」가 있는 목표에게 피해를 입힐 시, 자신의 일반 공격, 강공격 피해 보너스가 {1} 증가되고, 최대 {2}스택 중첩이 가능하며, {3}초간 지속된다. 반주 스킬 발동 시, 파티 내 등장 캐릭터 주변의 목표에게 주는 「광학 효과」 피해가 {4} 부스트되고, {5}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+        "en": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to <SapTag=2>{2}</SapTag> {Cus:Sap,S=time P=times SapTag=2} for {3}s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {4} for {5}s. Effects of the same name cannot be stacked."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "rime-draped-sprouts",
+    "name": {
+      "ko": "옥수 비단",
+      "en": "Rime-Draped Sprouts"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.72
+    },
+    "passive": {
+      "name": {
+        "ko": "그림 외의 경지",
+        "en": "Panorama"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 공명 스킬 발동 시 획득 효과: 자신이 출전 상태일 시 일반 공격 피해 보너스가 {1} 증가되며, 해당 효과가 최대 {2}스택 중첩이 가능하고, {3}초간 지속된다. 반주 스킬 발동 시 이미 {4}스택의 효과가 누적된 경우, 모든 스택을 소모하여 자신이 출전 상태가 아닐 시의 일반 공격 피해 보너스를 {5} 증가시키며, {6}초간 지속된다",
+        "en": "Increase ATK by {0}. While the wielder is on the field, using Resonance Skill grants {1} Basic Attack DMG Bonus, stacking up to {2} times for {3}s. At {4} stacks or above, casting Outro Skill consumes all stacks of this effect and grants the wielder {5} Basic Attack DMG Bonus for {6}s, effective when the wielder is off the field."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "stellar-symphony",
+    "name": {
+      "ko": "뭇별의 교향곡",
+      "en": "Stellar Symphony"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.7704
+    },
+    "passive": {
+      "name": {
+        "ko": "뭇별의 법칙",
+        "en": "Astral Evolvement"
+      },
+      "description": {
+        "ko": "HP가 {0} 증가한다. 공명 해방 발동 시, 자신의 협주 에너지를 {1}pt 회복시키며, {2}초마다 {3}회 발생할 수 있다. 공명 스킬로 치료 효과 발동 시, 근처 파티 내 모든 캐릭터의 공격력을 {4} 증가시키며, 해당 효과는 {5}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+        "en": "Increase HP by {0}. Restore {1} Concerto Energy when casting Resonance Liberation. This effect can be triggered {3} time(s) every {2}s. When casting Resonance Skill that heals, increase nearby party members' ATK by {4} for {5}s. Effects of the same name cannot be stacked."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "stringmaster",
+    "name": {
+      "ko": "꼭두각시의 손",
+      "en": "Stringmaster"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.36
+    },
+    "passive": {
+      "name": {
+        "ko": "뇌전의 증폭",
+        "en": "Electric Amplification"
+      },
+      "description": {
+        "ko": "전체 속성 피해 보너스가 {0} 증가한다. 공명 스킬 피해를 입힐 경우, 자신의 공격력이 {1} 증가하고, {2}스택 중첩이 가능하며, {3}초간 지속된다. 자신이 미출전 상태일 경우, 공격력이 추가로 {4} 증가한다",
+        "en": "Grants {0} Attribute DMG Bonus. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to {2} times. This effect lasts for {3}s. When the wielder is not on the field, increases their ATK by an additional {4}."
+      },
+      "stats": [
+        {
+          "type": "aeroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "glacioDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "fusionDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "electroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "havocDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "spectroDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "whispers-of-sirens",
+    "name": {
+      "ko": "바다의 속삭임",
+      "en": "Whispers of Sirens"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 500
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.72
+    },
+    "passive": {
+      "name": {
+        "ko": "바닷속에서",
+        "en": "From the Deep"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 혹은 일반 공격 발동 후 {1}초 내에, 에코 어빌리티 발동 시, 「부드러운 꿈」 {2}스택을 획득한다. 같은 이름의 에코는 1회만 발동이 가능하고, 최대 {3}스택 중첩이 가능하며, {4}초간 지속된다. 2스택까지 중첩 후, 에코 어빌리티를 발동할 경우, 지속시간이 리셋되지 않는다. 해당 효과는 10초 내에 최대 1회 발생할 수 있으며, 다른 캐릭터로 전환하면 효과가 즉시 종료된다.\n{5}스택: 일반 공격 피해 보너스가 {6} 증가된다.\n{7}스택: 목표의 인멸 속성 저항을 {8} 무시한다",
+        "en": "Increases ATK by {0}. Casting Echo Skill within {1}s after casting Intro Skill or Basic Attacks grants <SapTag=2>{2}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=2} of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to {3} times, lasting for {4}s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.\nWith <SapTag=5>{5}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=5}: Grants {6} Basic Attack DMG Bonus.\nWith <SapTag=7>{7}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=7}: Ignores {8} of the target's Havoc RES."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "blazing-brilliance",
+    "name": {
+      "ko": "솟아오르는 화염",
+      "en": "Blazing Brilliance"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.486
+    },
+    "passive": {
+      "name": {
+        "ko": "불사조의 깃털",
+        "en": "Crimson Phoenix"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가한다. 피해를 입힐 시 「빛나는 깃털」 1스택을 획득하며, 0.5초마다 1스택을 획득할 수 있다. 공명 스킬을 발동 시 추가로 5스택을 획득한다. 스택당 「빛나는 깃털」은 공명 스킬 피해 보너스를 {1} 증가시키고, 최대 14스택까지 중첩이 가능하다. 「빛나는 깃털」이 14스택에 도달한 {2}초 후, 모든 스택이 리셋된다",
+        "en": "ATK increased by {0}. The wielder gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. After reaching the max stacks, all stacks will be removed in {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "bloodpacts-pledge",
+    "name": {
+      "ko": "혈맹의 약속",
+      "en": "Bloodpact's Pledge"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3888
+    },
+    "passive": {
+      "name": {
+        "ko": "화음 공진",
+        "en": "Harmonious Vibrancy"
+      },
+      "description": {
+        "ko": "치료 효과 발동 시, 자신의 공명 스킬 피해가 {0} 증가되고, {1}초간 지속된다. 방랑자 · 기류가 공명 스킬 · 허무맹랑 발동 시, 근처 파티 내 등장 캐릭터의 기류 피해가 {2} 부스트되고, {3}초간 지속된다",
+        "en": "Providing Healing increases Resonance Skill DMG by {0} for {1}s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by {2} for {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "defiers-thorn",
+    "name": {
+      "ko": "숙명에 맞서는 관",
+      "en": "Defier's Thorn"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.7223
+    },
+    "passive": {
+      "name": {
+        "ko": "자유기사의 독무",
+        "en": "A Free Knight's Tarantella"
+      },
+      "description": {
+        "ko": "HP가 {0} 증가된다. 변주 스킬 혹은 일반 공격 발동 후 {3}초 내에, 자신이 입히는 피해가 목표의 {1} 방어력을 무시하고, 목표가 1스택 이상의 풍식 효과를 보유 시 목표에게 입히는 피해가 {2} 부스트된다",
+        "en": "Max HP is increased by {0}. {3}s after casting Intro Skill or Basic Attacks, ignore {1} of the target's DEF when dealing damage. If the target has at least 1 stack of Aero Erosion, the DMG taken by the target is Amplified by {2}."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "emerald-sentence",
+    "name": {
+      "ko": "푸른 의지",
+      "en": "Emerald Sentence"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "굳건한 의지",
+        "en": "When A Heart Settles"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 변주 스킬 혹은 일반 공격 발동 후 {1}초 내에, 에코 어빌리티 발동 시 「파죽(破竹)」 효과를 1스택 획득하고, 강공격 피해 보너스가 {2}% 증가된다. 같은 이름의 에코는 1회만 적용되고, 최대 2스택 중첩이 가능하며, {3}초간 지속된다. 2스택까지 중첩 후 에코 어빌리티를 발동하면 지속 시간이 리셋되지 않는다. 해당 효과는 {4}초 내에 최대 1회 적용 가능하고, 다른 캐릭터로 전환하면 즉시 종료된다.\n변주 스킬 발동 시, 파티 내 캐릭터의 에코 어빌리티 피해 보너스가 {5} 증가되고 {6}초간 지속되며, 같은 이름의 효과는 중첩이 불가하다",
+        "en": "ATK is increased by {0}. Casting Echo Skill within {1}s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {2}% Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for {3}s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every {4}s and ends early if the wielder is switched off the field.\nCasting Intro Skill grants {5} Echo Skill DMG Bonus to all Resonators in the team for {6}s. Effects of the same name cannot be stacked."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "emerald-of-genesis",
+    "name": {
+      "ko": "천년의 회류",
+      "en": "Emerald of Genesis"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "무한의 소용돌이",
+        "en": "Stormy Resolution"
+      },
+      "description": {
+        "ko": "공명 효율 {0} 증가. 공명 스킬 발동 시, 공격력이 {1} 증가하고, 최대 {2}스택 중첩이 가능하며, {3}초간 지속된다",
+        "en": "Increases Energy Regen by {0}. When Resonance Skill is cast, increases ATK by {1}, stacking up to {2} time(s). This effect lasts for {3}s."
+      },
+      "stats": [
+        {
+          "type": "energyRegen",
+          "value": 0.128
+        }
+      ]
+    }
+  },
+  {
+    "id": "everbright-polestar",
+    "name": {
+      "ko": "영원한 샛별",
+      "en": "Everbright Polestar"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "별을 좇아서",
+        "en": "Starchaser"
+      },
+      "description": {
+        "ko": "전체 속성 피해 보너스가 {0} 증가된다. 조화 파동 · 이탈 혹은 불꽃 효과 추가 시, 공명 해방 피해는 목표의 {1} 방어력과 {2}의 용융 저항을 무시하고, {3}초간 지속된다",
+        "en": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for {3}s."
+      },
+      "stats": [
+        {
+          "type": "aeroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "glacioDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "fusionDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "electroDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "havocDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "spectroDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "laser-shearer",
+    "name": {
+      "ko": "레이저 변형",
+      "en": "Laser Shearer"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3888
+    },
+    "passive": {
+      "name": {
+        "ko": "선지자",
+        "en": "Signal Catcher"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 「조화 밀집 · 간섭」 상태에 있는 목표에게 피해를 입힌 후, 공명 스킬 피해 보너스가 {1} 증가되고 {2}초간 지속된다. 중복 발생 시 지속 시간이 리셋된다",
+        "en": "Increases ATK by {0}. Dealing damage to targets under Tune Strain - Interfered grants {1} Resonance Skill Bonus for {2}s. Retriggering the effect resets its duration."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "red-spring",
+    "name": {
+      "ko": "날카로운 봄",
+      "en": "Red Spring"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 588
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "시작과 끝",
+        "en": "Beyond the Cycle"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가된다. 일반 공격 피해를 입힐 시, 자신의 일반 공격 피해 보너스가 {1} 증가되고, {2}초간 지속되며, 1초마다 1회 발생할 수 있고, 최대 {3}스택 중첩이 가능하다.\n자신의 협주 에너지 소모 시, 자신의 일반 공격 피해 보너스가 {4} 증가되며, {5}초간 지속된다. 1초마다 1회 발생할 수 있다. 다른 캐릭터로 전환하면 효과가 즉시 종료된다",
+        "en": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for {2}s. This effect can be triggered once per second, stacking up to {3} times.\nWhen the wielder's Concerto Energy is consumed, gain {4} Basic DMG Bonus for {5}. This effect can be triggered once per second and ends when the wielder is switched off the field."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "unflickering-valor",
+    "name": {
+      "ko": "흔들리지 않는 용기",
+      "en": "Unflickering Valor"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.7704
+    },
+    "passive": {
+      "name": {
+        "ko": "웃음 바다",
+        "en": "Laughter Prevails"
+      },
+      "description": {
+        "ko": "크리티컬이 {0} 증가된다. 공명 해방 발동 후, 일반 공격 피해 보너스가 {1} 증가되고, {2}초간 지속된다. 일반 공격 피해를 입힐 시, 일반 공격 피해 보너스가 {3} 증가되고, {4}초간 지속된다",
+        "en": "Increase Crit. Rate by {0}. Casting Resonance Liberation gives {1} Basic Attack DMG Bonus for {2}s. Dealing Basic Attack DMG gives {3} Basic Attack DMG Bonus for {4}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "aureate-zenith",
+    "name": {
+      "ko": "금빛 하늘",
+      "en": "Aureate Zenith"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.405
+    },
+    "passive": {
+      "name": {
+        "ko": "흑조(黑潮) 사냥의 맹세",
+        "en": "Oath of Tide Hunters"
+      },
+      "description": {
+        "ko": "공명 해방 발동 시, 공격력이 {0} 증가되고 강공격 피해 보너스가 {1} 증가되며 {2}초간 지속된다",
+        "en": "Casting Resonance Liberation increases ATK by {0} and grants {1} Heavy Attack DMG Bonus for {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "autumntrace",
+    "name": {
+      "ko": "가을의 무늬",
+      "en": "Autumntrace"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.2025
+    },
+    "passive": {
+      "name": {
+        "ko": "검이 가리키는 곳",
+        "en": "Edge Direction"
+      },
+      "description": {
+        "ko": "일반 공격이나 강공격을 사용하여 피해를 입힐 경우, 공격력이 {0} 증가하고, 최대 {1}스택 중첩이 가능하며, {2}초간 지속되며, {3}초마다 {4}회 발생할 수 있다",
+        "en": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to {1} time(s). This effect lasts for {2}s and can be triggered {4} time(s) every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "broadblade#41",
+    "name": {
+      "ko": "41형 대검 · 무거운 책임",
+      "en": "Broadblade#41"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.324
+    },
+    "passive": {
+      "name": {
+        "ko": "포용의 힘",
+        "en": "Veteran"
+      },
+      "description": {
+        "ko": "HP가 {0} 이상일 경우 공격력이 {1} 증가한다. HP가 {2} 이하일 경우 일반 공격이나 강공격을 사용하여 피해를 입힐 경우, 캐릭터의 HP가 {3} 회복하며, {4}초마다 {5}회 발생할 수 있다",
+        "en": "When the Resonator's HP is above {0}, increases ATK by {1}. When the Resonator's HP is below {2}, gives {3} healing when dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered {5} time(s) every {4}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "dauntless-evernight",
+    "name": {
+      "ko": "장야의 불빛",
+      "en": "Dauntless Evernight"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "defPercent",
+      "value": 0.6156
+    },
+    "passive": {
+      "name": {
+        "ko": "만반의 준비",
+        "en": "Battlebound"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 자신의 공격력이 {0} 증가하고, 방어력이 {1} 증가하며, {2}초간 지속된다",
+        "en": "When Intro Skill is cast, increases ATK by {0} and DEF by {1}, lasting for {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "discord",
+    "name": {
+      "ko": "기묘한 울림",
+      "en": "Discord"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.5184
+    },
+    "passive": {
+      "name": {
+        "ko": "끝없는 메아리",
+        "en": "Ceaseless Aria"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 협주 에너지 {0}pt를 회복하며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Concerto Energy. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "helios-cleaver",
+    "name": {
+      "ko": "저무는 동녘",
+      "en": "Helios Cleaver"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "잠재력의 상한",
+        "en": "Plasma Recoiler"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 후 {0}초 내에 {1}초마다 공격력이 {2} 증가하며, 최대 {3}스택 중첩이 가능하다. {4}초마다 {5}회 발생할 수 있으며, 스택이 {6}스택에 도달하면 {7}초 내에 전체 스택을 리셋한다",
+        "en": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every {1}s, stacking up to {3} time(s). This effect can be triggered {5} time(s) every {4}s. When the number of stacks reaches {6}, all stacks will be reset within {7}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "meditations-on-mercy",
+    "name": {
+      "ko": "용서의 명상록",
+      "en": "Meditations on Mercy"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "수식",
+        "en": "Rhetoric"
+      },
+      "description": {
+        "ko": "「이상 효과」가 있는 몬스터에게 피해를 입힐 시, 자신의 공격력이 {0} 증가하며, {1}초간 지속된다. 1초마다 1회 발생할 수 있으며, 최대 {2}스택 중첩이 가능하다",
+        "en": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for {1}s. This effect can be triggered 1 time per second, stackable up to {2} times."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "waning-redshift",
+    "name": {
+      "ko": "멸망의 주파수",
+      "en": "Waning Redshift"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "피안의 눈동자",
+        "en": "Intergalactic Gaze"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지를 {0}pt 획득하고, 공격력이 {1} 증가하며, {2}초간 지속된다. 해당 효과는 {3}초마다 1회 발생할 수 있다",
+        "en": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for {2}s. This effect can be triggered once every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "aether-strike",
+    "name": {
+      "ko": "거침없는 비상",
+      "en": "Aether Strike"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.405
+    },
+    "passive": {
+      "name": {
+        "ko": "흑조(黑潮) 사냥의 맹세",
+        "en": "Oath of Tide Hunters"
+      },
+      "description": {
+        "ko": "공명 해방 발동 시, 공격력이 {0} 증가되고 공명 해방 피해 보너스가 {1} 증가되며 {2}초간 지속된다",
+        "en": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "amity-accord",
+    "name": {
+      "ko": "전우의 의리",
+      "en": "Amity Accord"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "defPercent",
+      "value": 0.6156
+    },
+    "passive": {
+      "name": {
+        "ko": "출정의 의식",
+        "en": "Camaraderie"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 자신의 공명 해방 피해 보너스가 {0} 증가하며, {1}초간 지속된다",
+        "en": "When Intro Skill is cast, increases Resonance Liberation DMG Bonus by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "celestial-spiral",
+    "name": {
+      "ko": "천상의 나선",
+      "en": "Celestial Spiral"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "피안의 눈동자",
+        "en": "Intergalactic Gaze"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지를 {0}pt 획득하고, 공격력이 {1} 증가하며, {2}초간 지속된다. 해당 효과는 {3}초마다 1회 발생할 수 있다",
+        "en": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for {2}s. This effect can be triggered once every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "gauntlets#21d",
+    "name": {
+      "ko": "21형 권갑 · 아이언 팬텀",
+      "en": "Gauntlets#21D"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 388
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3888
+    },
+    "passive": {
+      "name": {
+        "ko": "주도면밀",
+        "en": "Mastermind"
+      },
+      "description": {
+        "ko": "회피 또는 돌진 시, 공격력이 {0} 증가하며, 회피 반격으로 가한 피해가 {1} 증가하며, {2}초간 지속된다. 회피 반격 발동할 경우, 캐릭터의 HP가 {3} 회복하며, {4}초마다 {5}회 발생할 수 있다",
+        "en": "When the Resonator dashes or dodges, increases ATK by {0}. Increases Dodge Counter DMG by {1}, lasting for {2}s. When Dodge Counter is performed, heals {3} of the Resonator's Max HP. This effect can be triggered {5} time(s) every {4}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "hollow-mirage",
+    "name": {
+      "ko": "천공의 역행",
+      "en": "Hollow Mirage"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "별의 동반",
+        "en": "Celestial Blessing"
+      },
+      "description": {
+        "ko": "공명 해방 발동 시, {0}스택의 「철갑」 효과를 획득하고, 각 스택마다 공격력과 방어력을 {1} 증가시키며, 최대 {2}스택 중첩이 가능하다. 피해를 입을 때마다 {3}스택 감소한다",
+        "en": "When Resonance Liberation is cast, grants {0} stack(s) of Iron Armor. Each stack increases ATK and DEF by {1}, stacking up to {2} time(s). When the Resonator takes damage, reduces the number of stacks by {3}."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "legend-of-drunken-hero",
+    "name": {
+      "ko": "만취의 영웅지",
+      "en": "Legend of Drunken Hero"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "수식",
+        "en": "Rhetoric"
+      },
+      "description": {
+        "ko": "「이상 효과」가 있는 몬스터에게 피해를 입힐 시, 자신의 공격력이 {0} 증가하며, {1}초간 지속된다. 1초마다 1회 발생할 수 있으며, 최대 {2}스택 중첩이 가능하다",
+        "en": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for {1}s. This effect can be triggered 1 time per second, stackable up to {2} times."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "marcato",
+    "name": {
+      "ko": "바람의 악센트",
+      "en": "Marcato"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.5184
+    },
+    "passive": {
+      "name": {
+        "ko": "끝없는 메아리",
+        "en": "Ceaseless Aria"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 협주 에너지 {0}pt를 회복하며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Concerto Energy. This effect can be triggered {2} times every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "stonard",
+    "name": {
+      "ko": "황금 권갑",
+      "en": "Stonard"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.2025
+    },
+    "passive": {
+      "name": {
+        "ko": "불굴의 권갑",
+        "en": "Wallbreaker"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 자신의 공명 해방 피해 보너스가 {0} 증가하며, {1}초간 지속된다",
+        "en": "Casting Resonance Skill increases the wielder's Resonance Liberation DMG Bonus by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "cadenza",
+    "name": {
+      "ko": "화려한 악곡",
+      "en": "Cadenza"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.5184
+    },
+    "passive": {
+      "name": {
+        "ko": "끝없는 메아리",
+        "en": "Ceaseless Aria"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 협주 에너지 {0}pt를 회복하며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Concerto Energy. This effect can be triggered {2} times every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "novaburst",
+    "name": {
+      "ko": "천공의 순간",
+      "en": "Novaburst"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "천변만화",
+        "en": "Ever-changing"
+      },
+      "description": {
+        "ko": "캐릭터가 돌진하거나 회피할 시, 공격력이 {0} 증가하고, {1}초간 지속되며, 최대 {2}스택 중첩이 가능하다",
+        "en": "When the Resonator dashes or dodges, increases ATK by {0}, stacking up to {2} time(s). This effect lasts for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "pistols#26",
+    "name": {
+      "ko": "26형 권총 · 맹렬한 돌격",
+      "en": "Pistols#26"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 388
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3645
+    },
+    "passive": {
+      "name": {
+        "ko": "끝없는 탐구",
+        "en": "Omniscient"
+      },
+      "description": {
+        "ko": "캐릭터가 피해를 입지 않은 경우, {0}초마다 공격력이 {1} 증가하며, 해당 효과는 최대 {2}스택 중첩이 가능하고, {3}초간 지속된다. 피해를 입었을 경우, {4}스택의 효과를 소모하고 캐릭터의 HP가 {5} 회복한다",
+        "en": "When the Resonator takes no damage, increases ATK by {1} every {0}s, stacking up to {2} time(s). This effect lasts for {3}s. When the Resonator takes damage, loses {4} stacks and heals {5} of their Max HP."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "relativistic-jet",
+    "name": {
+      "ko": "역설의 격류",
+      "en": "Relativistic Jet"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "피안의 눈동자",
+        "en": "Intergalactic Gaze"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지를 {0}pt 획득하고, 공격력이 {1} 증가하며, {2}초간 지속된다. 해당 효과는 {3}초마다 1회 발생할 수 있다",
+        "en": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for {2}s. This effect can be triggered once every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "romance-in-farewell",
+    "name": {
+      "ko": "작별의 로맨스",
+      "en": "Romance in Farewell"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "수식",
+        "en": "Rhetoric"
+      },
+      "description": {
+        "ko": "「이상 효과」가 있는 몬스터에게 피해를 입힐 시, 자신의 공격력이 {0} 증가하며, {1}초간 지속된다. 1초마다 1회 발생할 수 있으며, 최대 {2}스택 중첩이 가능하다",
+        "en": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for {1}s. This effect can be triggered 1 time per second, stackable up to {2} times."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "solar-flame",
+    "name": {
+      "ko": "태양 불꽃",
+      "en": "Solar Flame"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.2025
+    },
+    "passive": {
+      "name": {
+        "ko": "흑조(黑潮) 사냥의 맹세",
+        "en": "Oath of Tide Hunters"
+      },
+      "description": {
+        "ko": "일반 공격 혹은 강공격 피해를 입힐 시, 공격력과 강공격 피해 보너스가 {0} 증가된다. 최대 {1}스택 중첩이 가능하고 {2}초간 지속되며 {3}초마다 {4}회 발생할 수 있다",
+        "en": "Dealing Basic Attack or Heavy Attack DMG increases ATK by {0} and grants {0} Heavy Attack DMG Bonus for {2}s, stacking up to {1} times. This effect can be triggered <SapTag=4>{4}</SapTag> {Cus:Sap,S=time P=times SapTag=4} every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "thunderbolt",
+    "name": {
+      "ko": "뇌전",
+      "en": "Thunderbolt"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 388
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3645
+    },
+    "passive": {
+      "name": {
+        "ko": "거침없는 기세",
+        "en": "Unstoppable"
+      },
+      "description": {
+        "ko": "일반 공격이나 강공격을 사용하여 피해를 입힐 경우, 자신의 공명 스킬 피해 보너스가 {0} 증가하고, 최대 {1}스택 중첩이 가능하며, {2}초간 지속되고, {3}초마다 {4}회 발생할 수 있다",
+        "en": "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by {0}, stacking up to {1} time(s). This effect lasts for {2}s and can be triggered {4} time(s) every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "undying-flame",
+    "name": {
+      "ko": "불멸의 성화",
+      "en": "Undying Flame"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "일편단심",
+        "en": "Loyalty"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 자신의 공명 스킬 피해 보너스가 {0} 증가하며, {1}초간 지속된다",
+        "en": "When Intro Skill is cast, increases Resonance Skill DMG Bonus by {0} for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "augment",
+    "name": {
+      "ko": "청음",
+      "en": "Augment"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.2025
+    },
+    "passive": {
+      "name": {
+        "ko": "강유병존",
+        "en": "Forgiving Resilience"
+      },
+      "description": {
+        "ko": "공명 해방 발동 시, 자신의 공격력이 {0} 증가하고, {1}초간 지속된다",
+        "en": "Casting Resonance Liberation increases the wielder's ATK by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "call-of-the-abyss",
+    "name": {
+      "ko": "심해의 메아리",
+      "en": "Call of the Abyss"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.5184
+    },
+    "passive": {
+      "name": {
+        "ko": "은하수 조망",
+        "en": "Pole of the Celestial Dome"
+      },
+      "description": {
+        "ko": "공명 해방 발동 시, 자신의 치료 효과 보너스가 {0} 증가하며, {1}초간 지속된다",
+        "en": "Casting Resonance Liberation increases the Resonator's Healing Bonus by {0} for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "comet-flare",
+    "name": {
+      "ko": "굉음",
+      "en": "Comet Flare"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "빛의 비호",
+        "en": "Luminous Protection"
+      },
+      "description": {
+        "ko": "일반 공격이나 강공격을 사용하여 피해를 입힐 경우, 치료 효과 보너스가 {0} 증가하고, {1}초간 지속되며, 최대 {2}스택 중첩이 가능하며, {3}초마다 {4}회 발생할 수 있다",
+        "en": "When dealing Basic Attack DMG or Heavy Attack DMG, increases Healing Bonus by {0}, stacking up to {2} time(s). This effect lasts for {1}s and can be triggered {4} time(s) every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "fusion-accretion",
+    "name": {
+      "ko": "융합의 원반",
+      "en": "Fusion Accretion"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "피안의 눈동자",
+        "en": "Intergalactic Gaze"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지를 {0}pt 획득하고, 공격력이 {1} 증가하며, {2}초간 지속된다. 해당 효과는 {3}초마다 1회 발생할 수 있다",
+        "en": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for {2}s. This effect can be triggered once every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "jinzhou-keeper",
+    "name": {
+      "ko": "금주의 수호",
+      "en": "Jinzhou Keeper"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 388
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3645
+    },
+    "passive": {
+      "name": {
+        "ko": "전사의 충정",
+        "en": "Guardian"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 자신의 공격력이 {0} 증가하고, HP가 {1} 증가하며, {2}초간 지속된다",
+        "en": "Casting Intro Skill increases the wielder's ATK by {0} and HP by {1}, lasting for {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "oceans-gift",
+    "name": {
+      "ko": "바다의 선물",
+      "en": "Ocean's Gift"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "어획",
+        "en": "Fish Catch"
+      },
+      "description": {
+        "ko": "「광학 효과」가 있는 적에게 피해를 입힐 시 다음 효과를 얻을 수 있다. 자신의 회절 피해가 {0} 증가되고, 1초마다 1스택을 획득할 수 있으며, 6초간 지속되고, 최대 4스택 중첩이 가능하다",
+        "en": "Dealing DMG to enemies with Spectro Frazzle increases the wielder's Spectro DMG by {0}, gaining 1 stack per second for 6s, stacking up to 4 times."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "radiant-dawn",
+    "name": {
+      "ko": "눈부신 빛",
+      "en": "Radiant Dawn"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.405
+    },
+    "passive": {
+      "name": {
+        "ko": "흑조(黑潮) 사냥의 맹세",
+        "en": "Oath of Tide Hunters"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공격력과 일반 공격 피해 보너스가 {0} 증가되고 {1}초간 지속된다",
+        "en": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "rectifier#25",
+    "name": {
+      "ko": "25형 증폭기 · 울림의 멜로디",
+      "en": "Rectifier#25"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.5184
+    },
+    "passive": {
+      "name": {
+        "ko": "새로운 법칙",
+        "en": "Dawnbringer"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 캐릭터의 HP가 {0} 이하일 경우 캐릭터의 HP가 {1} 회복하며, {2}초마다 {3}회 발생할 수 있다. 캐릭터의 HP가 {4} 이상일 경우 공격력이 {5} 증가하며, {6}초간 지속된다",
+        "en": "When Resonance Skill is cast, if the Resonator's HP is below {0}, heals {1} of their Max HP.  This effect can be triggered {3} time(s) every {2}s. If the Resonator's HP is above {4}, increases ATK by {5}, lasting for {6}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "variation",
+    "name": {
+      "ko": "판타지 변주",
+      "en": "Variation"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.5184
+    },
+    "passive": {
+      "name": {
+        "ko": "끝없는 메아리",
+        "en": "Ceaseless Aria"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 협주 에너지 {0}pt를 회복하며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Concerto Energy. This effect can be triggered {2} times every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "waltz-in-masquerade",
+    "name": {
+      "ko": "허위의 왈츠",
+      "en": "Waltz in Masquerade"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "수식",
+        "en": "Rhetoric"
+      },
+      "description": {
+        "ko": "「이상 효과」가 있는 몬스터에게 피해를 입힐 시, 자신의 공격력이 {0} 증가하며, {1}초간 지속된다. 1초마다 1회 발생할 수 있으며, 최대 {2}스택 중첩이 가능하다",
+        "en": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for {1}s. This effect can be triggered 1 time per second, stackable up to {2} times."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "commando-of-conviction",
+    "name": {
+      "ko": "야귀의 신념",
+      "en": "Commando of Conviction"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "정면돌파",
+        "en": "Unyielding"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 자신의 공격력이 {0} 증가하며, {1}초간 지속된다",
+        "en": "When Intro Skill is cast, increases ATK by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "endless-collapse",
+    "name": {
+      "ko": "영원의 붕괴",
+      "en": "Endless Collapse"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "피안의 눈동자",
+        "en": "Intergalactic Gaze"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지를 {0}pt 획득하고, 공격력이 {1} 증가하며, {2}초간 지속된다. 해당 효과는 {3}초마다 1회 발생할 수 있다",
+        "en": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for {2}s. This effect can be triggered once every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "fables-of-wisdom",
+    "name": {
+      "ko": "풍류의 우화시",
+      "en": "Fables of Wisdom"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "수식",
+        "en": "Rhetoric"
+      },
+      "description": {
+        "ko": "「이상 효과」가 있는 몬스터에게 피해를 입힐 시, 자신의 공격력이 {0} 증가하며, {1}초간 지속된다. 1초마다 1회 발생할 수 있으며, 최대 {2}스택 중첩이 가능하다",
+        "en": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for {1}s. This effect can be triggered 1 time per second, stackable up to {2} times."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "feather-edge",
+    "name": {
+      "ko": "예리한 날개깃",
+      "en": "Feather Edge"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.2025
+    },
+    "passive": {
+      "name": {
+        "ko": "흑조(黑潮) 사냥의 맹세",
+        "en": "Oath of Tide Hunters"
+      },
+      "description": {
+        "ko": "공명 해방 발동 시, 공격력이 {0} 증가되고 공명 해방 피해 보너스가 {1} 증가되며 {2}초간 지속된다",
+        "en": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for {2}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "lumingloss",
+    "name": {
+      "ko": "천공의 광경",
+      "en": "Lumingloss"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 388
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3645
+    },
+    "passive": {
+      "name": {
+        "ko": "칼날의 질풍",
+        "en": "Pale Gale"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 자신의 일반 공격 피해 보너스와 강공격 피해 보너스가 {0} 증가하고, 최대 {1}스택 중첩이 가능하며, {2}초간 지속된다. {3}초마다 {4}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, increases Basic Attack DMG Bonus and Heavy Attack DMG Bonus by {0}, stacking up to {1} time(s). This effect lasts for {2}s and can be triggered {4} time(s) every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "lunar-cutter",
+    "name": {
+      "ko": "상승의 서녘",
+      "en": "Lunar Cutter"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 412
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "천시의 끌림",
+        "en": "Preordained"
+      },
+      "description": {
+        "ko": "캐릭터가 등장한 후 {0}스택의 「맹세」 효과를 얻게 되고, 각 스택은 공격력이 {1} 증가시키며, 최대 {2}스택 중첩이 가능하고, {3}초마다 {4}회 발생할 수 있다. {5}초마다 이 효과가 {6}스택 감소하게 되며, 목표를 격파할 시 추가로 {7}스택의 「맹세」 효과를 얻게 된다",
+        "en": "Equipped Resonator gains {0} stack(s) of Oath upon entering the battlefield. Each stack increases ATK by {1}, up to {2} stacks. This effect can be triggered {4} time(s) every {3}s. The equipped Resonator loses {6} stack(s) of Oath every {5}s, and gains {7} stack(s) upon defeating an enemy."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "overture",
+    "name": {
+      "ko": "행진의 서곡",
+      "en": "Overture"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 338
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.5184
+    },
+    "passive": {
+      "name": {
+        "ko": "끝없는 메아리",
+        "en": "Ceaseless Aria"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 협주 에너지 {0}pt를 회복하며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Concerto Energy. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "somnoire-anchor",
+    "name": {
+      "ko": "마음의 닻",
+      "en": "Somnoire Anchor"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 462
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.1823
+    },
+    "passive": {
+      "name": {
+        "ko": "냐앙!",
+        "en": "Meow!"
+      },
+      "description": {
+        "ko": "피해를 입힐 시 {0}스택 「포악」을 획득하고, {1}초마다 {2}스택을 획득할 수 있다. 「포악」: 1스택마다 자신의 공격력을 {3} 증가시키고, {4}초간 지속되며, 최대 {5}스택 중첩이 가능하다. 캐릭터 퇴장 시 모든 스택이 제거된다. 「포악」이 {6}스택 중첩 시, 자신의 크리티컬이 {7} 증가된다",
+        "en": "Gain {0} stack of Hiss when dealing damage to the target, with {2} stack generated every {1}s. \nHiss: each stack increases the wielder's ATK by {3} for {4}s, stacking up to {5} times. Switching off the wielder clears all stacks. Gaining {6} stacks increases the wielder's Crit. Rate by {7}."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "sword#18",
+    "name": {
+      "ko": "18형 직검 · 순간의 칼빛",
+      "en": "Sword#18"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": {
+      "90": 388
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3645
+    },
+    "passive": {
+      "name": {
+        "ko": "전진의 발걸음",
+        "en": "Daybreak"
+      },
+      "description": {
+        "ko": "HP가 {0} 이하일 경우, 강공격 피해 보너스가 {1} 증가하고, 강공격 피해를 입힐 때 현재 캐릭터의 HP가 {2} 회복되며, {3}초마다 {4}회 발생할 수 있다",
+        "en": "When the Resonator's HP drops below {0}, increases Heavy Attack DMG Bonus by {1} and gives {2} healing when dealing Heavy Attack DMG. This effect can be triggered {4} time(s) every {3}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "beguiling-melody",
+    "name": {
+      "ko": "천상의 음률",
+      "en": "Beguiling Melody"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "자유의 선율",
+        "en": "Graceful Touch"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시 협주 에너지 {0}pt를 회복하며, 반주 스킬 발동 시 공명 에너지 {1}pt를 회복한다",
+        "en": "When Intro Skill is cast, restores {0} Concerto Energy. When Outro Skill is cast, restores {1} Resonance Energy."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "broadblade-of-night",
+    "name": {
+      "ko": "흑야의 대검 · 현명",
+      "en": "Broadblade of Night"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "필사의 결심",
+        "en": "Valiance"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 공격력이 {0} 증가하며, {1}초간 지속된다",
+        "en": "When Intro Skill is cast, increases ATK by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "broadblade-of-voyager",
+    "name": {
+      "ko": "수행자의 대검 · 벽로",
+      "en": "Broadblade of Voyager"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.324
+    },
+    "passive": {
+      "name": {
+        "ko": "기나긴 여정",
+        "en": "Long Journey"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지 {0}pt를 회복하며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Resonance Energy. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "guardian-broadblade",
+    "name": {
+      "ko": "수호자의 대검 · 근성",
+      "en": "Guardian Broadblade"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "합일",
+        "en": "Consensus"
+      },
+      "description": {
+        "ko": "일반 공격과 강공격 피해 보너스가 {0} 증가한다",
+        "en": "Increases Basic Attack DMG Bonus and Heavy Attack DMG Bonus by {0}."
+      },
+      "stats": [
+        {
+          "type": "normalDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "heavyDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "originite:-type-i",
+    "name": {
+      "ko": "원능의 대검 · 견습I",
+      "en": "Originite: Type I"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "defPercent",
+      "value": 0.3848
+    },
+    "passive": {
+      "name": {
+        "ko": "응급 치료",
+        "en": "Temperance"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 자신의 HP가 {0} 회복되며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, heals {0} of the Resonator's Max HP. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "gauntlets-of-night",
+    "name": {
+      "ko": "흑야의 권갑 · 흑빛",
+      "en": "Gauntlets of Night"
+    },
+    "rarity": 3,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "필사의 결심",
+        "en": "Valiance"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 공격력이 {0} 증가하며, {1}초간 지속된다",
+        "en": "When Intro Skill is cast, increases ATK by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "gauntlets-of-voyager",
+    "name": {
+      "ko": "수행자의 권갑 · 파괴",
+      "en": "Gauntlets of Voyager"
+    },
+    "rarity": 3,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "defPercent",
+      "value": 0.3078
+    },
+    "passive": {
+      "name": {
+        "ko": "기나긴 여정",
+        "en": "Crusade"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지 {0}pt를 회복하고, {1}초마다 {2}회 발동할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Resonance Energy. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "guardian-gauntlets",
+    "name": {
+      "ko": "수호자의 권갑 · 강력",
+      "en": "Guardian Gauntlets"
+    },
+    "rarity": 3,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "defPercent",
+      "value": 0.3848
+    },
+    "passive": {
+      "name": {
+        "ko": "합력",
+        "en": "Collective Strength"
+      },
+      "description": {
+        "ko": "공명 해방 피해 보너스 {0} 증가",
+        "en": "Increases Resonance Liberation DMG Bonus by {0}."
+      },
+      "stats": [
+        {
+          "type": "liberationDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "originite:-type-iv",
+    "name": {
+      "ko": "원능의 권갑 · 견습IV",
+      "en": "Originite: Type IV"
+    },
+    "rarity": 3,
+    "type": "gauntlets",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "critDmg",
+      "value": 0.405
+    },
+    "passive": {
+      "name": {
+        "ko": "유합",
+        "en": "Rejuvinate"
+      },
+      "description": {
+        "ko": "일반 공격을 사용하여 피해를 입힐 경우, 자신의 HP가 {0} 회복되며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When dealing Basic Attack DMG, heals {0} of the Resonator's Max HP. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "guardian-pistols",
+    "name": {
+      "ko": "수호자의 권총 · 용맹",
+      "en": "Guardian Pistols"
+    },
+    "rarity": 3,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "동심",
+        "en": "Unity"
+      },
+      "description": {
+        "ko": "공명 스킬 피해 보너스 {0} 증가",
+        "en": "Resonance Skill DMG Bonus is increased by {0}."
+      },
+      "stats": [
+        {
+          "type": "skillDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "originite:-type-iii",
+    "name": {
+      "ko": "원능의 권총 · 견습III",
+      "en": "Originite: Type III"
+    },
+    "rarity": 3,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "성장의 속도",
+        "en": "Alarcrity"
+      },
+      "description": {
+        "ko": "회피 반격 발동 시, 자신의 HP가 {0} 회복되며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Dodge Counter is cast, heals {0} of the Resonator's Max HP. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "pistols-of-night",
+    "name": {
+      "ko": "흑야의 권총 · 흑성",
+      "en": "Pistols of Night"
+    },
+    "rarity": 3,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "필사의 결심",
+        "en": "Valiance"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 공격력이 {0} 증가하며, {1}초간 지속된다",
+        "en": "When Intro Skill is cast, increases ATK by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "pistols-of-voyager",
+    "name": {
+      "ko": "수행자의 권총 · 통찰",
+      "en": "Pistols of Voyager"
+    },
+    "rarity": 3,
+    "type": "pistols",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "기나긴 여정",
+        "en": "Long Journey"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지 {0}pt를 회복하고, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Resonance Energy. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "guardian-rectifier",
+    "name": {
+      "ko": "수호자의 증폭기 · 모략",
+      "en": "Guardian Rectifier"
+    },
+    "rarity": 3,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "상성",
+        "en": "Companionship"
+      },
+      "description": {
+        "ko": "일반 공격과 강공격 피해 보너스 {0} 증가",
+        "en": "Increases Basic Attack and Heavy Attack DMG Bonus by {0}."
+      },
+      "stats": [
+        {
+          "type": "normalDmgBonus",
+          "value": 0.12
+        },
+        {
+          "type": "heavyDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "originite:-type-v",
+    "name": {
+      "ko": "원능의 증폭기 · 견습V",
+      "en": "Originite: Type V"
+    },
+    "rarity": 3,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "도움의 손길",
+        "en": "Augment"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 자신의 HP가 {0} 회복되며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Intro Skill is cast, heals {0} of the Resonator's Max HP. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "rectifier-of-night",
+    "name": {
+      "ko": "흑야의 증폭기 · 흑광",
+      "en": "Rectifier of Night"
+    },
+    "rarity": 3,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "필사의 결심",
+        "en": "Valiance"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 공격력이 {0} 증가하며, {1} 초간 지속된다",
+        "en": "When Intro Skill is cast, increases ATK by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "rectifier-of-voyager",
+    "name": {
+      "ko": "수행자의 증폭기 · 탐색",
+      "en": "Rectifier of Voyager"
+    },
+    "rarity": 3,
+    "type": "rectifier",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.324
+    },
+    "passive": {
+      "name": {
+        "ko": "기나긴 여정",
+        "en": "Crusade"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지 {0}pt를 회복하고, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Resonance Energy. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "guardian-sword",
+    "name": {
+      "ko": "수호자의 직검 · 기민",
+      "en": "Guardian Sword"
+    },
+    "rarity": 3,
+    "type": "sword",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.3038
+    },
+    "passive": {
+      "name": {
+        "ko": "공제",
+        "en": "Unified"
+      },
+      "description": {
+        "ko": "공명 스킬 피해 보너스 {0} 증가",
+        "en": "Resonance Skill DMG Bonus is increased by {0}."
+      },
+      "stats": [
+        {
+          "type": "skillDmgBonus",
+          "value": 0.12
+        }
+      ]
+    }
+  },
+  {
+    "id": "originite:-type-ii",
+    "name": {
+      "ko": "원능의 직검 · 견습II",
+      "en": "Originite: Type II"
+    },
+    "rarity": 3,
+    "type": "sword",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "재생",
+        "en": "Vanquish"
+      },
+      "description": {
+        "ko": "공명 해방 발동 시, 자신의 HP가 {0} 회복되며, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Liberation is cast, heals {0} of the Resonator's Max HP. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "sword-of-night",
+    "name": {
+      "ko": "흑야의 직검 · 흑뢰",
+      "en": "Sword of Night"
+    },
+    "rarity": 3,
+    "type": "sword",
+    "baseAtk": {
+      "90": 325
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "필사의 결심",
+        "en": "Valiance"
+      },
+      "description": {
+        "ko": "변주 스킬 발동 시, 공격력이 {0} 증가하며, {1}초간 지속된다",
+        "en": "When Intro Skill is cast, increases ATK by {0}, lasting for {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "sword-of-voyager",
+    "name": {
+      "ko": "수행자의 직검 · 행적",
+      "en": "Sword of Voyager"
+    },
+    "rarity": 3,
+    "type": "sword",
+    "baseAtk": {
+      "90": 300
+    },
+    "subStat": {
+      "type": "atkPercent",
+      "value": 0.324
+    },
+    "passive": {
+      "name": {
+        "ko": "기나긴 여정",
+        "en": "Crusade"
+      },
+      "description": {
+        "ko": "공명 스킬 발동 시, 공명 에너지 {0}pt를 회복하고, {1}초마다 {2}회 발생할 수 있다",
+        "en": "When Resonance Skill is cast, restores {0} Resonance Energy. This effect can be triggered {2} time(s) every {1}s."
+      },
+      "stats": []
+    }
+  },
+  {
+    "id": "frostburn",
+    "name": {
+      "ko": "서린 불꽃",
+      "en": "Frostburn"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": {
+      "90": 587
+    },
+    "subStat": {
+      "type": "critRate",
+      "value": 0.243
+    },
+    "passive": {
+      "name": {
+        "ko": "다시는 나란 존재가 없기를",
+        "en": "Self No More"
+      },
+      "description": {
+        "ko": "공격력이 {0} 증가한다. 자신이 응결 침식(Glacio Chafe)을 부여하는 경우, 응결 피해 증폭 {1}, 공명해방 피해는 적의 방어력 {2}를 무시한다. 자신이 현재 출전한 공명자일 경우, 주변 모든 적에게 적용되는 응결 침식 피해 증폭 {3}, {4}초 지속, 0.1초마다 1회 발동 가능. 동명 효과 발동 시 가장 강한 효과만 적용된다",
+        "en": "ATK is increased by {0}. When the wielder applies Glacio Chafe, Glacio DMG is amplified by {1}, and Resonance Liberation DMG ignores {2} of the target's DEF. When the wielder is the active Resonator, Glacio Chafe DMG dealt to all targets within a certain range is amplified by {3} for {4}s, triggered once every 0.1s. Only the strongest effect applies."
+      },
+      "stats": [
+        {
+          "type": "atkPercent",
+          "value": 0.12
+        }
+      ]
+    }
+  }
+]

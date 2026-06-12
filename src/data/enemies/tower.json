@@ -1,0 +1,640 @@
+{
+  "name": {
+    "ko": "역경의 탑",
+    "en": "Tower of Adversity"
+  },
+  "resetCycle": 28,
+  "seasonId": 36,
+  "seasonStart": "2026-05-25",
+  "currentResetDate": "2026-06-22",
+  "zones": {
+    "hazard": {
+      "name": {
+        "ko": "심경 구역",
+        "en": "Hazard Zone"
+      },
+      "towers": [
+        {
+          "id": "resonant",
+          "name": {
+            "ko": "잔향의 탑",
+            "en": "Resonant Tower"
+          },
+          "position": "left",
+          "floors": [
+            {
+              "floor": 1,
+              "timeLimit": 240,
+              "fatigueCost": 1,
+              "enemies": [
+                {
+                  "ko": "아즈즈",
+                  "en": "Zig Zag"
+                },
+                {
+                  "ko": "쓸쓸한 아가씨",
+                  "en": "Lottie Lost"
+                }
+              ],
+              "bossIds": [],
+              "buffs": [
+                {
+                  "ko": "적 인멸 저항 10% 감소",
+                  "en": "Enemy Havoc RES decreases by 10%"
+                },
+                {
+                  "ko": "캐릭터가 에코 어빌리티를 발동 시, 파티 내 전체 속성 피해가 6% 증가되고, 최대 4스택 중첩이 가능하며 동일 캐릭터의 동일한 에코 어빌리티는 해당 효과를 중복으로 발생할 수 없다. 4스택까지 중첩 시, 파티 내 크리티컬 피해가 36% 증가된다",
+                  "en": "Casting an Echo Skill increases Attribute DMG by 6% for all Resonators in the team, stacking up to 4 times. The same Resonator with identical Echoes cannot trigger this effect multiple times. At 4 stacks, Crit. DMG of all Resonators in the team is increased by 36%."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 0,
+                  "timeLeft": 0
+                },
+                {
+                  "score": 90,
+                  "timeLeft": 90
+                },
+                {
+                  "score": 150,
+                  "timeLeft": 150
+                }
+              ]
+            },
+            {
+              "floor": 2,
+              "timeLimit": 240,
+              "fatigueCost": 2,
+              "enemies": [
+                {
+                  "ko": "유령 인형 · 레프",
+                  "en": "Chop Chop: Leftless"
+                },
+                {
+                  "ko": "유령 인형 · 헤드",
+                  "en": "Chop Chop: Headless"
+                },
+                {
+                  "ko": "유령 인형 · 라잇",
+                  "en": "Chop Chop: Rightless"
+                },
+                {
+                  "ko": "불굴의 호위",
+                  "en": "Rocksteady Guardian"
+                }
+              ],
+              "bossIds": [],
+              "buffs": [
+                {
+                  "ko": "적 인멸 저항 10% 감소",
+                  "en": "Enemy Havoc RES decreases by 10%"
+                },
+                {
+                  "ko": "캐릭터가 에코 어빌리티를 발동 시, 파티 내 전체 속성 피해가 6% 증가되고, 최대 4스택 중첩이 가능하며 동일 캐릭터의 동일한 에코 어빌리티는 해당 효과를 중복으로 발생할 수 없다. 4스택까지 중첩 시, 파티 내 크리티컬 피해가 36% 증가된다",
+                  "en": "Casting an Echo Skill increases Attribute DMG by 6% for all Resonators in the team, stacking up to 4 times. The same Resonator with identical Echoes cannot trigger this effect multiple times. At 4 stacks, Crit. DMG of all Resonators in the team is increased by 36%."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 0,
+                  "timeLeft": 0
+                },
+                {
+                  "score": 90,
+                  "timeLeft": 90
+                },
+                {
+                  "score": 150,
+                  "timeLeft": 150
+                }
+              ]
+            },
+            {
+              "floor": 3,
+              "timeLimit": 240,
+              "fatigueCost": 3,
+              "enemies": [
+                {
+                  "ko": "화살곰",
+                  "en": "Spearback"
+                },
+                {
+                  "ko": "조각상을 재구성하는 돌멩이",
+                  "en": "Rage Against the Statue"
+                },
+                {
+                  "ko": "흑월의 야수",
+                  "en": "Lightcrusher"
+                }
+              ],
+              "bossIds": [],
+              "buffs": [
+                {
+                  "ko": "적 인멸 저항 10% 감소",
+                  "en": "Enemy Havoc RES decreases by 10%"
+                },
+                {
+                  "ko": "캐릭터가 에코 어빌리티를 발동 시, 파티 내 전체 속성 피해가 6% 증가되고, 최대 4스택 중첩이 가능하며 동일 캐릭터의 동일한 에코 어빌리티는 해당 효과를 중복으로 발생할 수 없다. 4스택까지 중첩 시, 파티 내 크리티컬 피해가 36% 증가된다",
+                  "en": "Casting an Echo Skill increases Attribute DMG by 6% for all Resonators in the team, stacking up to 4 times. The same Resonator with identical Echoes cannot trigger this effect multiple times. At 4 stacks, Crit. DMG of all Resonators in the team is increased by 36%."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 0,
+                  "timeLeft": 0
+                },
+                {
+                  "score": 120,
+                  "timeLeft": 120
+                },
+                {
+                  "score": 180,
+                  "timeLeft": 180
+                }
+              ]
+            },
+            {
+              "floor": 4,
+              "timeLimit": 240,
+              "fatigueCost": 4,
+              "enemies": [
+                {
+                  "ko": "백야 기사",
+                  "en": "Diurnus Knight"
+                }
+              ],
+              "bossIds": [
+                "sigillum"
+              ],
+              "buffs": [
+                {
+                  "ko": "적 인멸 저항 10% 감소",
+                  "en": "Enemy Havoc RES decreases by 10%"
+                },
+                {
+                  "ko": "캐릭터가 에코 어빌리티를 발동 시, 파티 내 전체 속성 피해가 6% 증가되고, 최대 4스택 중첩이 가능하며 동일 캐릭터의 동일한 에코 어빌리티는 해당 효과를 중복으로 발생할 수 없다. 4스택까지 중첩 시, 파티 내 크리티컬 피해가 36% 증가된다",
+                  "en": "Casting an Echo Skill increases Attribute DMG by 6% for all Resonators in the team, stacking up to 4 times. The same Resonator with identical Echoes cannot trigger this effect multiple times. At 4 stacks, Crit. DMG of all Resonators in the team is increased by 36%."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 0,
+                  "timeLeft": 0
+                },
+                {
+                  "score": 120,
+                  "timeLeft": 120
+                },
+                {
+                  "score": 180,
+                  "timeLeft": 180
+                }
+              ]
+            }
+          ],
+          "interference": {
+            "name": {
+              "ko": "심경 간섭",
+              "en": "Deep Realm Interference"
+            },
+            "effects": [
+              {
+                "ko": "적 인멸 저항 10% 감소",
+                "en": "Enemy Havoc RES decreases by 10%"
+              },
+              {
+                "ko": "캐릭터가 에코 어빌리티를 발동 시, 파티 내 전체 속성 피해가 6% 증가되고, 최대 4스택 중첩이 가능하며 동일 캐릭터의 동일한 에코 어빌리티는 해당 효과를 중복으로 발생할 수 없다. 4스택까지 중첩 시, 파티 내 크리티컬 피해가 36% 증가된다",
+                "en": "Casting an Echo Skill increases Attribute DMG by 6% for all Resonators in the team, stacking up to 4 times. The same Resonator with identical Echoes cannot trigger this effect multiple times. At 4 stacks, Crit. DMG of all Resonators in the team is increased by 36%."
+              }
+            ]
+          }
+        },
+        {
+          "id": "hazard",
+          "name": {
+            "ko": "심연의 탑",
+            "en": "Hazard Tower"
+          },
+          "position": "center",
+          "floors": [
+            {
+              "floor": 1,
+              "timeLimit": 180,
+              "fatigueCost": 5,
+              "enemies": [],
+              "bossIds": [
+                "crownless"
+              ],
+              "buffs": [
+                {
+                  "ko": "적군의 용융 저항 및 회절 저항이 10% 감소되며, 기류 저항 및 인멸 저항이 10% 증가된다",
+                  "en": "Enemies' Fusion RES and Spectro RES are decreased by 10%, and their Aero RES and Havoc RES are increased by 10%."
+                },
+                {
+                  "ko": "공격력이 30% 증가된다. 캐릭터가 변주 스킬 발동 시, 전체 속성 피해 보너스가 30% 증가되고, 20초간 지속된다",
+                  "en": "ATK is increased by 20%. Resonators gain 30% All DMG Bonus for 20s upon casting Intro Skill."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 90,
+                  "timeLeft": 90
+                },
+                {
+                  "score": 150,
+                  "timeLeft": 150
+                },
+                {
+                  "score": 180,
+                  "timeLeft": 180
+                }
+              ]
+            },
+            {
+              "floor": 2,
+              "timeLimit": 180,
+              "fatigueCost": 5,
+              "enemies": [
+                {
+                  "ko": "플로라 메카 레인디어",
+                  "en": "Flora Reindeer"
+                },
+                {
+                  "ko": "소용돌이 곰",
+                  "en": "Hurriclaw"
+                }
+              ],
+              "bossIds": [
+                "impermanence-heron"
+              ],
+              "buffs": [
+                {
+                  "ko": "적군의 용융 저항 및 회절 저항이 10% 감소되며, 기류 저항 및 인멸 저항이 10% 증가된다",
+                  "en": "Enemies' Fusion RES and Spectro RES are decreased by 10%, and their Aero RES and Havoc RES are increased by 10%."
+                },
+                {
+                  "ko": "공격력이 30% 증가된다. 캐릭터가 변주 스킬 발동 시, 전체 속성 피해 보너스가 30% 증가되고, 20초간 지속된다",
+                  "en": "ATK is increased by 20%. Resonators gain 30% All DMG Bonus for 20s upon casting Intro Skill."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 90,
+                  "timeLeft": 90
+                },
+                {
+                  "score": 150,
+                  "timeLeft": 150
+                },
+                {
+                  "score": 180,
+                  "timeLeft": 180
+                }
+              ]
+            },
+            {
+              "floor": 3,
+              "timeLimit": 180,
+              "fatigueCost": 5,
+              "enemies": [
+                {
+                  "ko": "트랜스카",
+                  "en": "Carapace"
+                },
+                {
+                  "ko": "바람의 기생갑",
+                  "en": "Windlash Coleoid"
+                },
+                {
+                  "ko": "크로나클라우",
+                  "en": "Kronaclaw"
+                }
+              ],
+              "bossIds": [
+                "fleurdelys"
+              ],
+              "buffs": [
+                {
+                  "ko": "전투 시작 60초 후, 캐릭터가 공격으로 적군 명중 후, 적군이 15초 내에 받는 최종 피해를 5% 증가시키며, 해당 효과는 5초마다 5% 증가되고, 최대 60%까지 증가될 수 있다",
+                  "en": "60s after the battle starts, when the Resonator's attacks hit an enemy, that enemy takes 5% more Total DMG for 15s. This value increases by 5% every 5s, up to a maximum of 60%."
+                },
+                {
+                  "ko": "적군의 전체 속성 저항이 15% 증가된다. 적군이 이상 효과 피해를 받을 시 혹은 조화도 · 이탈 상태에 있을 시 제거된다",
+                  "en": "Enemies' All-Attribute RES is increased by 15%. When the enemies take Negative Status DMG or are inflicted with Tunability - Shifting, this effect is removed."
+                },
+                {
+                  "ko": "공격력이 30% 증가되고, 응결 최종 피해가 30% 증가된다.적군이 받는 서리 효과 최종 피해가 80% 증가되고, 불꽃 효과 최종 피해가 160% 증가된다. 캐릭터가 조화도 · 이탈 추가 후, 최종 피해가 50% 증가되고, 20초간 지속된다",
+                  "en": "ATK is increased by 30%, and Total Glacio DMG is increased by 30%.Enemies take 80% more Total Glacio Chafe DMG and 160% more Total Fusion Burst DMG. After a Resonator inflicts Tune Strain - Shifting, the Total DMG taken by the enemies is increased by 50% for 20s."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 90,
+                  "timeLeft": 60
+                },
+                {
+                  "score": 150,
+                  "timeLeft": 120
+                },
+                {
+                  "score": 180,
+                  "timeLeft": 150
+                }
+              ]
+            },
+            {
+              "floor": 4,
+              "timeLimit": 180,
+              "fatigueCost": 5,
+              "enemies": [
+                {
+                  "ko": "바다의 여인",
+                  "en": "Lady of the Sea"
+                },
+                {
+                  "ko": "이름없는 탐색자",
+                  "en": "Nameless Explorer"
+                }
+              ],
+              "bossIds": [],
+              "buffs": [
+                {
+                  "ko": "전투 시작 60초 후, 캐릭터가 공격으로 적군 명중 후, 적군이 15초 내에 받는 최종 피해를 5% 증가시키며, 해당 효과는 5초마다 5% 증가되고, 최대 60%까지 증가될 수 있다",
+                  "en": "60s after the battle starts, when the Resonator's attacks hit an enemy, that enemy takes 5% more Total DMG for 15s. This value increases by 5% every 5s, up to a maximum of 60%."
+                },
+                {
+                  "ko": "적군의 전체 속성 저항이 15% 증가된다. 적군이 이상 효과 피해를 받을 시 혹은 조화도 · 이탈 상태에 있을 시 제거된다",
+                  "en": "Enemies' All-Attribute RES is increased by 15%. When the enemies take Negative Status DMG or are inflicted with Tunability - Shifting, this effect is removed."
+                },
+                {
+                  "ko": "공격력이 30% 증가되고, 응결 최종 피해가 30% 증가된다.적군이 받는 서리 효과 최종 피해가 80% 증가되고, 불꽃 효과 최종 피해가 160% 증가된다. 캐릭터가 조화도 · 이탈 추가 후, 최종 피해가 50% 증가되고, 20초간 지속된다",
+                  "en": "ATK is increased by 30%, and Total Glacio DMG is increased by 30%.Enemies take 80% more Total Glacio Chafe DMG and 160% more Total Fusion Burst DMG. After a Resonator inflicts Tune Strain - Shifting, the Total DMG taken by the enemies is increased by 50% for 20s."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 90,
+                  "timeLeft": 60
+                },
+                {
+                  "score": 150,
+                  "timeLeft": 120
+                },
+                {
+                  "score": 180,
+                  "timeLeft": 150
+                }
+              ]
+            }
+          ],
+          "interference": {
+            "name": {
+              "ko": "심경 간섭",
+              "en": "Deep Realm Interference"
+            },
+            "effects": [
+              {
+                "ko": "적군의 용융 저항 및 회절 저항이 10% 감소되며, 기류 저항 및 인멸 저항이 10% 증가된다",
+                "en": "Enemies' Fusion RES and Spectro RES are decreased by 10%, and their Aero RES and Havoc RES are increased by 10%."
+              },
+              {
+                "ko": "공격력이 30% 증가된다. 캐릭터가 변주 스킬 발동 시, 전체 속성 피해 보너스가 30% 증가되고, 20초간 지속된다",
+                "en": "ATK is increased by 20%. Resonators gain 30% All DMG Bonus for 20s upon casting Intro Skill."
+              }
+            ]
+          }
+        },
+        {
+          "id": "echoing",
+          "name": {
+            "ko": "울림의 탑",
+            "en": "Echoing Tower"
+          },
+          "position": "right",
+          "floors": [
+            {
+              "floor": 1,
+              "timeLimit": 240,
+              "fatigueCost": 1,
+              "enemies": [
+                {
+                  "ko": "드레이크 · 응결",
+                  "en": "Glacio Drake"
+                }
+              ],
+              "bossIds": [],
+              "buffs": [
+                {
+                  "ko": "적 용융 저항 10% 감소",
+                  "en": "Enemy Fusion RES decreases by 10%"
+                },
+                {
+                  "ko": "캐릭터가 변주 스킬 발동 시 자신의 공격력이 초당 5% 증가되고, 최대 4스택 중첩이 가능하다. 4스택까지 중첩 시 자신의 공명 스킬 피해 보너스가 40% 증가되고, 캐릭터가 퇴장 시 모든 효과가 사라진다",
+                  "en": "When Resonators cast Intro Skill, their ATK is increased by 5% per second, stacking up to 4 times. At max stack, they gain 40% Resonance Skill DMG Bonus. The effect ends when the Resonator is switched off the field."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 0,
+                  "timeLeft": 0
+                },
+                {
+                  "score": 90,
+                  "timeLeft": 90
+                },
+                {
+                  "score": 150,
+                  "timeLeft": 150
+                }
+              ]
+            },
+            {
+              "floor": 2,
+              "timeLimit": 240,
+              "fatigueCost": 2,
+              "enemies": [
+                {
+                  "ko": "갈기늑대 · 눈꽃",
+                  "en": "Glacio Dreadmane"
+                },
+                {
+                  "ko": "유약 암괴",
+                  "en": "Calcified Junrock"
+                }
+              ],
+              "bossIds": [],
+              "buffs": [
+                {
+                  "ko": "적 용융 저항 10% 감소",
+                  "en": "Enemy Fusion RES decreases by 10%"
+                },
+                {
+                  "ko": "캐릭터가 변주 스킬 발동 시 자신의 공격력이 초당 5% 증가되고, 최대 4스택 중첩이 가능하다. 4스택까지 중첩 시 자신의 공명 스킬 피해 보너스가 40% 증가되고, 캐릭터가 퇴장 시 모든 효과가 사라진다",
+                  "en": "When Resonators cast Intro Skill, their ATK is increased by 5% per second, stacking up to 4 times. At max stack, they gain 40% Resonance Skill DMG Bonus. The effect ends when the Resonator is switched off the field."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 0,
+                  "timeLeft": 0
+                },
+                {
+                  "score": 90,
+                  "timeLeft": 90
+                },
+                {
+                  "score": 150,
+                  "timeLeft": 150
+                }
+              ]
+            },
+            {
+              "floor": 3,
+              "timeLimit": 240,
+              "fatigueCost": 3,
+              "enemies": [
+                {
+                  "ko": "파트리시우스 귀족",
+                  "en": "Abyssal Patricius"
+                },
+                {
+                  "ko": "글라디우스 귀족",
+                  "en": "Abyssal Gladius"
+                },
+                {
+                  "ko": "메르카토르 귀족",
+                  "en": "Abyssal Mercator"
+                }
+              ],
+              "bossIds": [],
+              "buffs": [
+                {
+                  "ko": "적 용융 저항 10% 감소",
+                  "en": "Enemy Fusion RES decreases by 10%"
+                },
+                {
+                  "ko": "캐릭터가 변주 스킬 발동 시 자신의 공격력이 초당 5% 증가되고, 최대 4스택 중첩이 가능하다. 4스택까지 중첩 시 자신의 공명 스킬 피해 보너스가 40% 증가되고, 캐릭터가 퇴장 시 모든 효과가 사라진다",
+                  "en": "When Resonators cast Intro Skill, their ATK is increased by 5% per second, stacking up to 4 times. At max stack, they gain 40% Resonance Skill DMG Bonus. The effect ends when the Resonator is switched off the field."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 0,
+                  "timeLeft": 0
+                },
+                {
+                  "score": 120,
+                  "timeLeft": 120
+                },
+                {
+                  "score": 180,
+                  "timeLeft": 180
+                }
+              ]
+            },
+            {
+              "floor": 4,
+              "timeLimit": 240,
+              "fatigueCost": 4,
+              "enemies": [],
+              "bossIds": [
+                "lampylumen-myriad"
+              ],
+              "buffs": [
+                {
+                  "ko": "적 용융 저항 10% 감소",
+                  "en": "Enemy Fusion RES decreases by 10%"
+                },
+                {
+                  "ko": "캐릭터가 변주 스킬 발동 시 자신의 공격력이 초당 5% 증가되고, 최대 4스택 중첩이 가능하다. 4스택까지 중첩 시 자신의 공명 스킬 피해 보너스가 40% 증가되고, 캐릭터가 퇴장 시 모든 효과가 사라진다",
+                  "en": "When Resonators cast Intro Skill, their ATK is increased by 5% per second, stacking up to 4 times. At max stack, they gain 40% Resonance Skill DMG Bonus. The effect ends when the Resonator is switched off the field."
+                }
+              ],
+              "targets": [
+                {
+                  "score": 0,
+                  "timeLeft": 0
+                },
+                {
+                  "score": 120,
+                  "timeLeft": 120
+                },
+                {
+                  "score": 180,
+                  "timeLeft": 180
+                }
+              ]
+            }
+          ],
+          "interference": {
+            "name": {
+              "ko": "심경 간섭",
+              "en": "Deep Realm Interference"
+            },
+            "effects": [
+              {
+                "ko": "적 용융 저항 10% 감소",
+                "en": "Enemy Fusion RES decreases by 10%"
+              },
+              {
+                "ko": "캐릭터가 변주 스킬 발동 시 자신의 공격력이 초당 5% 증가되고, 최대 4스택 중첩이 가능하다. 4스택까지 중첩 시 자신의 공명 스킬 피해 보너스가 40% 증가되고, 캐릭터가 퇴장 시 모든 효과가 사라진다",
+                "en": "When Resonators cast Intro Skill, their ATK is increased by 5% per second, stacking up to 4 times. At max stack, they gain 40% Resonance Skill DMG Bonus. The effect ends when the Resonator is switched off the field."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "crestThresholds": {
+    "standard": {
+      "timeLimit": 240,
+      "crest3": {
+        "clearWithin": 60,
+        "description": {
+          "ko": "60초 이내 클리어",
+          "en": "Clear within 60s"
+        }
+      },
+      "crest2": {
+        "clearWithin": 120,
+        "description": {
+          "ko": "120초 이내 클리어",
+          "en": "Clear within 120s"
+        }
+      },
+      "crest1": {
+        "clearWithin": 240,
+        "description": {
+          "ko": "제한 시간 내 클리어",
+          "en": "Clear within time limit"
+        }
+      }
+    },
+    "hazard": {
+      "timeLimit": 180,
+      "crest3": {
+        "clearWithin": 30,
+        "description": {
+          "ko": "30초 이내 클리어",
+          "en": "Clear within 30s"
+        }
+      },
+      "crest2": {
+        "clearWithin": 90,
+        "description": {
+          "ko": "90초 이내 클리어",
+          "en": "Clear within 90s"
+        }
+      },
+      "crest1": {
+        "clearWithin": 180,
+        "description": {
+          "ko": "제한 시간 내 클리어",
+          "en": "Clear within time limit"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "적 레벨별 스탯 스케일링 (permyriad → /10000). 출처: Dimbreath/WutheringData MonsterPropertyGrowth.json",
+  "curve": {
+    "1":   { "hpRatio": 10000,   "atkRatio": 5000,   "defRatio": 10000 },
+    "10":  { "hpRatio": 14281,   "atkRatio": 9281,   "defRatio": 10900 },
+    "20":  { "hpRatio": 22618,   "atkRatio": 15809,  "defRatio": 11900 },
+    "30":  { "hpRatio": 42620,   "atkRatio": 27453,  "defRatio": 12900 },
+    "40":  { "hpRatio": 85497,   "atkRatio": 47530,  "defRatio": 13900 },
+    "50":  { "hpRatio": 188483,  "atkRatio": 68020,  "defRatio": 14900 },
+    "60":  { "hpRatio": 409205,  "atkRatio": 96268,  "defRatio": 15900 },
+    "70":  { "hpRatio": 822469,  "atkRatio": 187774, "defRatio": 16900 },
+    "80":  { "hpRatio": 1563733, "atkRatio": 279854, "defRatio": 17900 },
+    "90":  { "hpRatio": 2626059, "atkRatio": 335039, "defRatio": 18900 },
+    "100": { "hpRatio": 3644493, "atkRatio": 335039, "defRatio": 19900 },
+    "110": { "hpRatio": 4072697, "atkRatio": 335039, "defRatio": 20900 },
+    "120": { "hpRatio": 4321717, "atkRatio": 335039, "defRatio": 21900 }
+  }
+}

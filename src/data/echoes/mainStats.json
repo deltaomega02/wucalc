@@ -1,0 +1,30 @@
+{
+  "4": [
+    { "type": "atkPercent",   "maxValue": 0.33 },
+    { "type": "hpPercent",    "maxValue": 0.33 },
+    { "type": "defPercent",   "maxValue": 0.418 },
+    { "type": "critRate",     "maxValue": 0.22 },
+    { "type": "critDmg",      "maxValue": 0.44 },
+    { "type": "healingBonus", "maxValue": 0.264 }
+  ],
+  "3": [
+    { "type": "atkPercent",        "maxValue": 0.30 },
+    { "type": "hpPercent",         "maxValue": 0.30 },
+    { "type": "defPercent",        "maxValue": 0.38 },
+    { "type": "aeroDmgBonus",      "maxValue": 0.30 },
+    { "type": "glacioDmgBonus",    "maxValue": 0.30 },
+    { "type": "fusionDmgBonus",    "maxValue": 0.30 },
+    { "type": "electroDmgBonus",   "maxValue": 0.30 },
+    { "type": "havocDmgBonus",     "maxValue": 0.30 },
+    { "type": "spectroDmgBonus",   "maxValue": 0.30 },
+    { "type": "energyRegen",       "maxValue": 0.32 }
+  ],
+  "1": [
+    { "type": "atkPercent",  "maxValue": 0.18 },
+    { "type": "hpPercent",   "maxValue": 0.228 },
+    { "type": "defPercent",  "maxValue": 0.18 },
+    { "type": "atk",         "maxValue": 150 },
+    { "type": "hp",          "maxValue": 2280 },
+    { "type": "def",         "maxValue": 200 }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "wucalc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate-data": "tsx scripts/validateData.ts",
+    "verify-datamine": "tsx scripts/verifyDataminedValues.ts",
+    "verify-names": "tsx scripts/verifyLocaleNames.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "lenis": "^1.3.23",
+    "motion": "^12.39.0",
+    "next": "^15.1.0",
+    "next-intl": "^3.25.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tesseract.js": "^7.0.0",
+    "three": "^0.184.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.184.1",
+    "@vitest/coverage-v8": "^4.1.6",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.1.0",
+    "prettier": "^3.4.0",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.22.2",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.6"
+  }
+}

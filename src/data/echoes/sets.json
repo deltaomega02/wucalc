@@ -1,0 +1,691 @@
+[
+  {
+    "id": "sierra-gale",
+    "name": {
+      "ko": "스쳐가는 바람",
+      "en": "Sierra Gale"
+    },
+    "twoPiece": [
+      {
+        "type": "aeroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "aeroDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "변주스킬 사용 후 15초간",
+      "en": "For 15s after Intro Skill"
+    }
+  },
+  {
+    "id": "freezing-frost",
+    "name": {
+      "ko": "야밤의 서리",
+      "en": "Freezing Frost"
+    },
+    "twoPiece": [
+      {
+        "type": "glacioDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "glacioDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "일반/강공격 후 10%씩 3중첩 15초",
+      "en": "+10% per Basic/Heavy ATK, max 3 stacks, 15s"
+    }
+  },
+  {
+    "id": "molten-rift",
+    "name": {
+      "ko": "솟구치는 용암",
+      "en": "Molten Rift"
+    },
+    "twoPiece": [
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "공명스킬 사용 후 15초간",
+      "en": "For 15s after Resonance Skill"
+    }
+  },
+  {
+    "id": "void-thunder",
+    "name": {
+      "ko": "울려퍼지는 뇌음",
+      "en": "Void Thunder"
+    },
+    "twoPiece": [
+      {
+        "type": "electroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "electroDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "강공격/스킬 후 15%씩 2중첩 15초",
+      "en": "+15% per Heavy ATK/Skill, max 2 stacks, 15s"
+    }
+  },
+  {
+    "id": "havoc-eclipse",
+    "name": {
+      "ko": "빛을 삼키는 해",
+      "en": "Havoc Eclipse"
+    },
+    "twoPiece": [
+      {
+        "type": "havocDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "havocDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "일반/강공격 후 7.5%씩 4중첩 15초",
+      "en": "+7.5% per Basic/Heavy ATK, max 4 stacks, 15s"
+    }
+  },
+  {
+    "id": "celestial-light",
+    "name": {
+      "ko": "빛나는 별",
+      "en": "Celestial Light"
+    },
+    "twoPiece": [
+      {
+        "type": "spectroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "spectroDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "변주스킬 사용 후 15초간",
+      "en": "For 15s after Intro Skill"
+    }
+  },
+  {
+    "id": "lingering-tunes",
+    "name": {
+      "ko": "끊임없는 잔향",
+      "en": "Lingering Tunes"
+    },
+    "twoPiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.2
+      },
+      {
+        "type": "outroDmgBonus",
+        "value": 0.6
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "필드 위에서 1.5초마다 5%씩 4중첩. 아웃트로 스킬 피해 +60%",
+      "en": "+5% ATK every 1.5s on field, max 4 stacks. Outro Skill DMG +60%"
+    }
+  },
+  {
+    "id": "moonlit-clouds",
+    "name": {
+      "ko": "떠오르는 구름",
+      "en": "Moonlit Clouds"
+    },
+    "twoPiece": [
+      {
+        "type": "energyRegen",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.225
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "아웃트로 사용 후 다음 공명자 공격력 22.5% 15초",
+      "en": "Next Resonator ATK +22.5% for 15s after Outro"
+    }
+  },
+  {
+    "id": "rejuvenating-glow",
+    "name": {
+      "ko": "찬란한 광휘",
+      "en": "Rejuvenating Glow"
+    },
+    "twoPiece": [
+      {
+        "type": "healingBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.15
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "아군 치유 시 파티 공격력 15% 30초",
+      "en": "Party ATK +15% for 30s upon healing"
+    }
+  },
+  {
+    "id": "empyrean-anthem",
+    "name": {
+      "ko": "하늘의 합주곡",
+      "en": "Empyrean Anthem"
+    },
+    "twoPiece": [
+      {
+        "type": "energyRegen",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "coordinatedDmgBonus",
+        "value": 0.8
+      },
+      {
+        "type": "atkPercent",
+        "value": 0.2
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "협동공격 피해 +80%. 협동공격 크리 시 활성 공명자 공격력 +20% 4초",
+      "en": "Coordinated ATK DMG +80%. On crit, active ATK +20% for 4s"
+    }
+  },
+  {
+    "id": "midnight-veil",
+    "name": {
+      "ko": "어둠의 장막",
+      "en": "Midnight Veil"
+    },
+    "twoPiece": [
+      {
+        "type": "havocDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "havocDmgBonus",
+        "value": 0.15
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "아웃트로 시 인멸 480% 추가피해 + 등장 공명자 인멸 +15% 15초",
+      "en": "On Outro, 480% Havoc DMG + incoming Resonator Havoc +15% 15s"
+    }
+  },
+  {
+    "id": "frosty-resolve",
+    "name": {
+      "ko": "냉철한 결단",
+      "en": "Frosty Resolve"
+    },
+    "twoPiece": [
+      {
+        "type": "skillDmgBonus",
+        "value": 0.12
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "glacioDmgBonus",
+        "value": 0.225
+      },
+      {
+        "type": "skillDmgBonus",
+        "value": 0.36
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "스킬 시 응결 +22.5% 15초. 해방 시 스킬피해 +18% 5초 2중첩",
+      "en": "Skill: Glacio +22.5% 15s. Liberation: Skill DMG +18% 5s, 2 stacks"
+    }
+  },
+  {
+    "id": "eternal-radiance",
+    "name": {
+      "ko": "영원의 광채",
+      "en": "Eternal Radiance"
+    },
+    "twoPiece": [
+      {
+        "type": "spectroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "critRate",
+        "value": 0.2
+      },
+      {
+        "type": "spectroDmgBonus",
+        "value": 0.15
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "회절 프래즐 부여 시 크리확 +20% 15초. 10중첩 시 회절 +15% 15초",
+      "en": "On Frazzle: Crit +20% 15s. At 10 stacks: Spectro +15% 15s"
+    }
+  },
+  {
+    "id": "tidebreaking-courage",
+    "name": {
+      "ko": "파도에 맞선 용기",
+      "en": "Tidebreaking Courage"
+    },
+    "twoPiece": [
+      {
+        "type": "energyRegen",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.15
+      },
+      {
+        "type": "allAttributeDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "공격력 +15%. 공명 효율 250% 도달 시 속성 피해 +30%",
+      "en": "ATK +15%. At 250% Energy Regen, all Attribute DMG +30%"
+    }
+  },
+  {
+    "id": "gusts-of-welkin",
+    "name": {
+      "ko": "끝없는 하늘",
+      "en": "Gusts of Welkin"
+    },
+    "twoPiece": [
+      {
+        "type": "aeroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "aeroDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "기류 침식 부여 시 기류 +15%(팀) +15%(본인 추가) 20초",
+      "en": "On Aero Erosion: team +15%, self +15% additional, 20s"
+    }
+  },
+  {
+    "id": "windward-pilgrimage",
+    "name": {
+      "ko": "영광이 깃든 바람",
+      "en": "Windward Pilgrimage"
+    },
+    "twoPiece": [
+      {
+        "type": "aeroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "critRate",
+        "value": 0.1
+      },
+      {
+        "type": "aeroDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "기류 침식 대상 타격 시 크리확 +10%, 기류 +30% 10초",
+      "en": "Hit Aero Erosion target: Crit +10%, Aero +30% for 10s"
+    }
+  },
+  {
+    "id": "flaming-clawprint",
+    "name": {
+      "ko": "울부짖는 늑대의 불꽃",
+      "en": "Flaming Clawprint"
+    },
+    "twoPiece": [
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.15
+      },
+      {
+        "type": "liberationDmgBonus",
+        "value": 0.2
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "해방 시 팀 용융 +15%, 본인 해방피해 +20% 35초",
+      "en": "Liberation: team Fusion +15%, self Liberation DMG +20%, 35s"
+    }
+  },
+  {
+    "id": "flamewings-shadow",
+    "name": {
+      "ko": "불타는 깃털을 펼친 사냥꾼의 그림자",
+      "en": "Flamewing's Shadow"
+    },
+    "isThreePieceOnly": true,
+    "twoPiece": [],
+    "fivePiece": [],
+    "threePiece": [
+      {
+        "type": "critRate",
+        "value": 0.2
+      },
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.16
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "에코스킬 시 강공격 크리확 +20% 6초, 강공격 시 에코스킬 크리확 +20% 6초. 둘 다 활성 시 용융 +16%",
+      "en": "Echo Skill: Heavy Crit +20% 6s. Heavy: Echo Crit +20% 6s. Both active: Fusion +16%"
+    }
+  },
+  {
+    "id": "thread-of-severed-fate",
+    "name": {
+      "ko": "운명을 붕괴시키는 현",
+      "en": "Thread of Severed Fate"
+    },
+    "isThreePieceOnly": true,
+    "twoPiece": [],
+    "fivePiece": [],
+    "threePiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.2
+      },
+      {
+        "type": "liberationDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "인멸 굴레 부여 시 공격력 +20%, 해방피해 +30% 5초",
+      "en": "On Havoc Bane: ATK +20%, Liberation DMG +30% for 5s"
+    }
+  },
+  {
+    "id": "dream-of-the-lost",
+    "name": {
+      "ko": "뒤틀린 피안의 꿈",
+      "en": "Dream of the Lost"
+    },
+    "isThreePieceOnly": true,
+    "twoPiece": [],
+    "fivePiece": [],
+    "threePiece": [
+      {
+        "type": "critRate",
+        "value": 0.2
+      },
+      {
+        "type": "skillDmgBonus",
+        "value": 0.35
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "공명 에너지 0일 때 크리확 +20%, 에코스킬 피해 +35%",
+      "en": "At 0 Resonance Energy: Crit +20%, Echo Skill DMG +35%"
+    }
+  },
+  {
+    "id": "crown-of-valor",
+    "name": {
+      "ko": "영광의 칼날로 만들어진 왕관",
+      "en": "Crown of Valor"
+    },
+    "isThreePieceOnly": true,
+    "twoPiece": [],
+    "fivePiece": [],
+    "threePiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.3
+      },
+      {
+        "type": "critDmg",
+        "value": 0.2
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "보호막 획득 시 공격력 +6%, 크리피해 +4% 4초 5중첩",
+      "en": "On Shield: ATK +6%, Crit DMG +4% for 4s, max 5 stacks"
+    }
+  },
+  {
+    "id": "law-of-harmony",
+    "name": {
+      "ko": "만물의 숨결에 비롯된 울림",
+      "en": "Law of Harmony"
+    },
+    "isThreePieceOnly": true,
+    "twoPiece": [],
+    "fivePiece": [],
+    "threePiece": [
+      {
+        "type": "heavyDmgBonus",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "에코스킬 시 강공격 +30% 4초. 팀 에코스킬 +4% 30초 4중첩",
+      "en": "Echo Skill: Heavy ATK +30% 4s. Team Echo Skill +4% 30s, max 4 stacks"
+    }
+  },
+  {
+    "id": "halo-of-starry-radiance",
+    "name": {
+      "ko": "빛을 쫓는 별의 고리",
+      "en": "Halo of Starry Radiance"
+    },
+    "twoPiece": [
+      {
+        "type": "healingBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.25
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "치유 시 이탈도 1%당 팀 공격력 +0.2% 4초, 최대 25%",
+      "en": "On heal: team ATK +0.2% per 1% Off-Tune rate, max 25%, 4s"
+    }
+  },
+  {
+    "id": "pact-of-neonlight-leap",
+    "name": {
+      "ko": "역광 속 눈부신 서약",
+      "en": "Pact of Neonlight Leap"
+    },
+    "twoPiece": [
+      {
+        "type": "spectroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "atkPercent",
+        "value": 0.3
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "아웃트로 시 등장 공명자 공격력 +15%. 조율돌파력 1당 +0.3% 추가, 최대 +15% 15초",
+      "en": "Outro: incoming ATK +15%. +0.3% per Tune Break Boost, max +15%, 15s"
+    }
+  },
+  {
+    "id": "rite-of-gilded-revelation",
+    "name": {
+      "ko": "흐르는 금빛 속 진리의 답",
+      "en": "Rite of Gilded Revelation"
+    },
+    "twoPiece": [
+      {
+        "type": "spectroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "spectroDmgBonus",
+        "value": 0.3
+      },
+      {
+        "type": "normalDmgBonus",
+        "value": 0.4
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "일반공격 시 회절 +10% 5초 3중첩. 3중첩에서 해방 시 일반공격 +40%",
+      "en": "Basic ATK: Spectro +10% 5s, 3 stacks. At 3: Liberation grants Basic +40%"
+    }
+  },
+  {
+    "id": "sound-of-true-name",
+    "name": {
+      "ko": "함의의 소리를 따라",
+      "en": "Sound of True Name"
+    },
+    "twoPiece": [
+      {
+        "type": "aeroDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "critRate",
+        "value": 0.2
+      },
+      {
+        "type": "aeroDmgBonus",
+        "value": 0.15
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "에코스킬로 적 타격 시 에코스킬 크리확 +20%, 기류 +15% 5초",
+      "en": "Echo Skill hit: Echo Crit +20%, Aero +15% for 5s"
+    }
+  },
+  {
+    "id": "trailblazing-star",
+    "name": {
+      "ko": "긴 여정을 떠나는 별",
+      "en": "Trailblazing Star"
+    },
+    "twoPiece": [
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "critRate",
+        "value": 0.2
+      },
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.2
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "용융 폭발 또는 조율파열 부여 시 크리확 +20%, 용융 +20% 8초",
+      "en": "On Fusion Burst/Tune Rupture: Crit +20%, Fusion +20% 8s"
+    }
+  },
+  {
+    "id": "chromatic-foam",
+    "name": {
+      "ko": "오색찬란한 거품",
+      "en": "Chromatic Foam"
+    },
+    "twoPiece": [
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.1
+      }
+    ],
+    "fivePiece": [
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.1
+      },
+      {
+        "type": "fusionDmgBonus",
+        "value": 0.25
+      }
+    ],
+    "fivePieceCondition": {
+      "ko": "용융 폭발 시 용융 +10% 15초. 활성 시 아웃트로 후 등장 공명자 용융 +25% 15초",
+      "en": "On Fusion Burst: Fusion +10% 15s. While active, Outro grants incoming +25% Fusion 15s"
+    }
+  }
+]

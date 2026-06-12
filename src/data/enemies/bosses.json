@@ -1,0 +1,380 @@
+[
+  {
+    "id": "crownless",
+    "name": {
+      "ko": "크라운리스",
+      "en": "Crownless"
+    },
+    "category": "overlord",
+    "element": "havoc",
+    "baseHp": 3929,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "havoc": 0.4
+    }
+  },
+  {
+    "id": "feilian-beringal",
+    "name": {
+      "ko": "폭주의 고릴라",
+      "en": "Feilian Beringal"
+    },
+    "category": "overlord",
+    "element": "aero",
+    "baseHp": 3131,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "spectro": 0.4
+    }
+  },
+  {
+    "id": "thundering-mephis",
+    "name": {
+      "ko": "천둥의 비늘",
+      "en": "Thundering Mephis"
+    },
+    "category": "overlord",
+    "element": "electro",
+    "baseHp": 4348,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "electro": 0.4
+    }
+  },
+  {
+    "id": "inferno-rider",
+    "name": {
+      "ko": "지옥불 기사",
+      "en": "Inferno Rider"
+    },
+    "category": "overlord",
+    "element": "fusion",
+    "baseHp": 3776,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "havoc": 0.4
+    }
+  },
+  {
+    "id": "bell-borne-geochelone",
+    "name": {
+      "ko": "타종 거북이",
+      "en": "Bell-Borne Geochelone"
+    },
+    "category": "overlord",
+    "element": "glacio",
+    "baseHp": 5316,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "electro": 0.4
+    }
+  },
+  {
+    "id": "lampylumen-myriad",
+    "name": {
+      "ko": "반디의 군세",
+      "en": "Lampylumen Myriad"
+    },
+    "category": "overlord",
+    "element": "glacio",
+    "baseHp": 10609,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "glacio": 0.4
+    }
+  },
+  {
+    "id": "mourning-aix",
+    "name": {
+      "ko": "애곡하는 아익스",
+      "en": "Mourning Aix"
+    },
+    "category": "overlord",
+    "element": "spectro",
+    "baseHp": 6678,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "spectro": 0.4
+    }
+  },
+  {
+    "id": "mech-abomination",
+    "name": {
+      "ko": "조립식 로봇",
+      "en": "Mech Abomination"
+    },
+    "category": "overlord",
+    "element": "electro",
+    "baseHp": 13045,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "aero": 0.4
+    }
+  },
+  {
+    "id": "impermanence-heron",
+    "name": {
+      "ko": "음험한 백로",
+      "en": "Impermanence Heron"
+    },
+    "category": "overlord",
+    "element": "aero",
+    "baseHp": 9061,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "havoc": 0.4
+    }
+  },
+  {
+    "id": "tempest-mephis",
+    "name": {
+      "ko": "뇌운의 비늘",
+      "en": "Tempest Mephis"
+    },
+    "category": "overlord",
+    "element": "spectro",
+    "baseHp": 12758,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "electro": 0.4
+    }
+  },
+  {
+    "id": "fallacy-of-no-return",
+    "name": {
+      "ko": "돌아갈 곳이 없는 오류",
+      "en": "Fallacy of No Return"
+    },
+    "category": "overlord",
+    "element": "electro",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "aero": 0.4
+    }
+  },
+  {
+    "id": "sentry-construct",
+    "name": {
+      "ko": "이성 무장",
+      "en": "Sentry Construct"
+    },
+    "category": "overlord",
+    "element": "spectro",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "spectro": 0.4
+    }
+  },
+  {
+    "id": "dragon-of-dirge",
+    "name": {
+      "ko": "탄식의 고룡",
+      "en": "Dragon of Dirge"
+    },
+    "category": "overlord",
+    "element": "glacio",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "fusion": 0.4
+    }
+  },
+  {
+    "id": "lorelei",
+    "name": {
+      "ko": "로렐라이",
+      "en": "Lorelei"
+    },
+    "category": "overlord",
+    "element": "fusion",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "fusion": 0.4
+    }
+  },
+  {
+    "id": "lioness-of-glory",
+    "name": {
+      "ko": "영광의 사자",
+      "en": "Lioness of Glory"
+    },
+    "category": "overlord",
+    "element": "havoc",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "havoc": 0.4
+    }
+  },
+  {
+    "id": "fenrico",
+    "name": {
+      "ko": "펜리코",
+      "en": "Fenrico"
+    },
+    "category": "overlord",
+    "element": "fusion",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "glacio": 0.4
+    }
+  },
+  {
+    "id": "the-false-sovereign",
+    "name": {
+      "ko": "거짓의 신왕",
+      "en": "The False Sovereign"
+    },
+    "category": "overlord",
+    "element": "aero",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "aero": 0.4
+    }
+  },
+  {
+    "id": "hyvatia",
+    "name": {
+      "ko": "하이와티아",
+      "en": "Hyvatia"
+    },
+    "category": "overlord",
+    "element": "aero",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "aero": 0.4
+    }
+  },
+  {
+    "id": "reactor-husk",
+    "name": {
+      "ko": "리액터 허스크",
+      "en": "Reactor Husk"
+    },
+    "category": "overlord",
+    "element": "spectro",
+    "baseHp": 10000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "spectro": 0.4
+    }
+  },
+  {
+    "id": "dreamless",
+    "name": {
+      "ko": "무망자",
+      "en": "Dreamless"
+    },
+    "category": "calamity",
+    "element": "havoc",
+    "baseHp": 15000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "havoc": 0.4
+    }
+  },
+  {
+    "id": "jue",
+    "name": {
+      "ko": "용의 별자리",
+      "en": "Jue"
+    },
+    "category": "calamity",
+    "element": "spectro",
+    "baseHp": 18000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "spectro": 0.4,
+      "electro": 0.4
+    }
+  },
+  {
+    "id": "hecate",
+    "name": {
+      "ko": "헤카테",
+      "en": "Hecate"
+    },
+    "category": "calamity",
+    "element": "havoc",
+    "baseHp": 20000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "havoc": 0.4
+    }
+  },
+  {
+    "id": "fleurdelys",
+    "name": {
+      "ko": "플뢰르 드 리스",
+      "en": "Reminiscence: Fleurdelys"
+    },
+    "category": "calamity",
+    "element": "spectro",
+    "baseHp": 20000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "spectro": 0.4,
+      "havoc": 0.4
+    }
+  },
+  {
+    "id": "leviathan",
+    "name": {
+      "ko": "명식·레비아탄",
+      "en": "Threnodian: Leviathan"
+    },
+    "category": "calamity",
+    "element": "aero",
+    "baseHp": 20000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "aero": 0.4,
+      "havoc": 0.4
+    }
+  },
+  {
+    "id": "sigillum",
+    "name": {
+      "ko": "시길룸",
+      "en": "Sigillum"
+    },
+    "category": "calamity",
+    "element": "fusion",
+    "baseHp": 20000,
+    "baseDef": 800,
+    "baseResistance": 0.1,
+    "elementResistance": {
+      "fusion": 0.4
+    }
+  }
+]

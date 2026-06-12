@@ -1,0 +1,539 @@
+/* src/app/globals.css */
+@import 'tailwindcss';
+
+@theme {
+  /* ── Semantic tokens — v5 "Sentinel Gold" (공식 사이트 모노크롬+골드 문법) ──
+     라이트 아이보리 베이스 + 잉크 블랙 + 골드 액센트. 속성색은 이미지·배지가 담당. */
+  --color-primary: #A87800;         /* 골드 — 브랜드/액션/활성 (AA 4.5:1 on white) */
+  --color-primary-dim: #A8780014;
+  --color-accent: #0E7490;          /* 음감 결정 청록 — 비교/보조 (AA on white) */
+  --color-accent-dim: #0E749014;
+  --color-bg: #F7F6F3;              /* 페이지 베이스 — 웜 아이보리 페이퍼 */
+  --color-surface: #FFFFFF;         /* 카드 면 */
+  --color-surface-hover: #F2F1EC;
+  --color-border: #E3E1D8;
+  --color-border-hover: #C9C6B8;
+  --color-text: #16150F;            /* 잉크 — 웜 블랙 */
+  --color-text-muted: #595645;      /* 보조 텍스트 (7:1) */
+  --color-positive: #0E9F6E;
+  --color-negative: #DC2626;
+
+  /* 타입 스케일 — 기본 Tailwind보다 한 단계 크게 (가독성 우선) */
+  --text-xs: 0.8125rem;             /* 12px → 13px */
+  --text-xs--line-height: 1.125rem;
+  --text-sm: 0.9375rem;             /* 14px → 15px */
+  --text-sm--line-height: 1.375rem;
+
+  /* ── Surface ladder — 웜 페이퍼 ── */
+  --color-paper: #F7F6F3;
+  --color-card: #FFFFFF;
+  --color-card-hover: #F2F1EC;
+  --color-card-deep: #EAE8E0;
+
+  /* Text ladder */
+  --color-ink: #16150F;
+  --color-ink-secondary: #57544A;
+  --color-ink-muted: #8B887B;
+  --color-ink-faint: #C2BFB2;
+
+  /* 브랜드 잉크 + 시그니처 포인트 */
+  --color-coast-deep: #12110D;      /* 잉크 블랙 — 버튼/파도 */
+  --color-coast-mid: #3B392F;       /* 그래파이트 */
+  --color-shorekeeper-sky: #4A9FE0;
+  --color-tethys-purple: #6B5BE8;
+  --color-tacet-cyan: #2DC4E8;
+  --color-remnant: #B8A8E0;
+  --color-gold-bright: #F2C744;     /* 글로우/그라디언트 전용 골드 */
+
+  /* Six elements — 텍스트 안전 (화이트 위 AA) */
+  --color-glacio: #2D8FCC;
+  --color-fusion: #E54D2E;
+  --color-electro: #8A4FE8;
+  --color-aero: #1FA871;
+  --color-spectro: #D89400;
+  --color-havoc: #C71F75;
+
+  /* Six elements — 브라이트 (이미지 배경 그라디언트/글로우 전용, 텍스트 금지) */
+  --color-el-glacio: #41AEFB;
+  --color-el-fusion: #F0744E;
+  --color-el-electro: #B46BFF;
+  --color-el-aero: #3DE6A0;
+  --color-el-spectro: #F5D547;
+  --color-el-havoc: #E649A6;
+
+  /* Fonts — next/font 변수(--font-chakra/--font-jbm) + Pretendard CDN */
+  --font-sans: 'Pretendard Variable', Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
+    'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  --font-display: var(--font-chakra, 'Chakra Petch'), 'Pretendard Variable', system-ui, sans-serif;
+  --font-mono: var(--font-jbm, 'JetBrains Mono'), 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+}
+
+/* ── 파도 애니메이션 ── */
+/* SVG가 width:200%이고, 앞 절반과 뒷 절반이 동일한 파형.
+   -50% 이동하면 원점과 동일 → 무한 루프가 매끄럽게 연결됨. */
+@keyframes wave {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes wave-slow {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.animate-wave {
+  animation: wave 8s linear infinite;
+}
+
+.animate-wave-slow {
+  animation: wave-slow 12s linear infinite;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out both;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fade-up 0.5s ease-out 0.1s both;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fade-up 0.5s ease-out 0.2s both;
+}
+
+.animate-fade-up-delay-3 {
+  animation: fade-up 0.5s ease-out 0.3s both;
+}
+
+/* ── 글로벌 베이스 ── */
+html {
+  color-scheme: light;
+}
+
+/* 계산기 앱 특성상 숫자는 모두 고정폭 — 표·수치 정렬이 흔들리지 않는다 */
+body {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: rgba(26, 109, 184, 0.18);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── 글로벌 스크롤바 ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-hover);
+}
+
+/* ── 셀렉트 네이티브 스타일 ── */
+select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236B7084' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 24px;
+  appearance: none;
+}
+
+/* ── 인풋 트랜지션 ── */
+input, select {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* ── 범위 슬라이더 ── */
+input[type="range"] {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--color-border);
+}
+
+/* ── Echo Resonance Console — 모션 ── */
+@keyframes resonance-ripple {
+  0% { transform: scale(0); opacity: 0.8; }
+  100% { transform: scale(4); opacity: 0; }
+}
+
+@keyframes echo-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(77, 217, 255, 0); }
+  50% { box-shadow: 0 0 32px 4px rgba(77, 217, 255, 0.4); }
+}
+
+@keyframes glow-breath {
+  0%, 100% { opacity: 0.5; filter: blur(20px); }
+  50% { opacity: 1; filter: blur(28px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes float-particle {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 0.3; }
+  33% { transform: translateY(-20px) translateX(8px); opacity: 0.7; }
+  66% { transform: translateY(10px) translateX(-12px); opacity: 0.5; }
+}
+
+@keyframes letter-rise {
+  from { opacity: 0; transform: translateY(20px); filter: blur(8px); }
+  to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+/* 타이틀 글자 클립 리빌 — 블러 없이 마스크 위로 솟아오른다 (가시성 우선) */
+@keyframes letter-reveal {
+  from { transform: translateY(115%); }
+  to { transform: translateY(0); }
+}
+
+/* 클릭 지점에서 퍼지는 파문 링 (사이트 전역) */
+@keyframes click-ring {
+  0% { transform: translate(-50%, -50%) scale(0.08); opacity: 0.85; }
+  100% { transform: translate(-50%, -50%) scale(1); opacity: 0; }
+}
+
+@keyframes scroll-indicator {
+  0% { transform: translateY(-100%); }
+  50% { transform: translateY(400%); }
+  100% { transform: translateY(-100%); }
+}
+
+/* ── 시그니처 유틸 클래스 ── */
+.echo-pulse {
+  animation: echo-pulse 2s ease-in-out infinite;
+}
+
+.glow-breath {
+  animation: glow-breath 4s ease-in-out infinite;
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, var(--color-ink-secondary) 0%, var(--color-tacet-cyan) 50%, var(--color-ink-secondary) 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Hexagonal clip path (6각형 — element badge용) */
+.clip-hex {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Glass card — 라이트 베이스 글래스 */
+.glass-card {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  border: 1px solid rgba(11, 22, 38, 0.08);
+}
+
+/* Resonance ripple container */
+.ripple-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(77, 217, 255, 0.6) 0%, transparent 70%);
+  pointer-events: none;
+  animation: resonance-ripple 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Noise grain overlay */
+.noise-grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.04;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+/* Floating particles */
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, currentColor 0%, transparent 70%);
+  pointer-events: none;
+  animation: float-particle 8s ease-in-out infinite;
+}
+
+/* ── Black Coast — 검은 파도 모션 ── */
+@keyframes wave-drift {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes wave-drift-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes ink-bleed {
+  0%, 100% { opacity: 0.05; transform: scale(1); }
+  50% { opacity: 0.12; transform: scale(1.02); }
+}
+
+@keyframes hexagon-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Wave layer at page edges */
+.wave-bg {
+  position: absolute;
+  width: 200%;
+  pointer-events: none;
+}
+
+.wave-bg.bottom {
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  animation: wave-drift 30s linear infinite;
+}
+
+.wave-bg.top {
+  top: 0;
+  left: 0;
+  height: 120px;
+  transform: scaleY(-1);
+  animation: wave-drift-reverse 40s linear infinite;
+}
+
+/* Ink-bleed soft accent (검은 잉크 번짐) */
+.ink-bleed {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--color-coast-deep) 0%, transparent 60%);
+  filter: blur(60px);
+  animation: ink-bleed 6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Light-mode card — 수면 워시 */
+.coast-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(22, 21, 15, 0.07);
+  box-shadow: 0 6px 22px -12px rgba(22, 21, 15, 0.12);
+  transition:
+    transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.coast-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(22, 21, 15, 0.14);
+  box-shadow: 0 14px 36px -12px rgba(22, 21, 15, 0.2);
+}
+
+/* Ripple — light mode 적합한 잉크 ripple */
+.ripple-effect.coast {
+  background: radial-gradient(circle, rgba(11, 22, 38, 0.15) 0%, transparent 70%);
+}
+
+/* ════════ v5 — 공식 사이트 모티프 + 이미지 타일 시스템 ════════ */
+
+/* 「괄호」 태그 — 공식 사이트 캡션 문법 */
+.tag-bracket::before { content: '「'; margin-right: 0.1em; }
+.tag-bracket::after { content: '」'; margin-left: 0.1em; }
+
+/* ◆ 마름모 불릿 */
+.diamond::before {
+  content: '◆';
+  font-size: 0.5em;
+  vertical-align: 0.25em;
+  margin-right: 0.7em;
+  color: var(--color-primary);
+}
+
+/* + 크로스헤어 코너 마커 */
+.cross-marks { position: relative; }
+.cross-marks::before,
+.cross-marks::after {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1;
+  color: var(--color-ink-faint);
+  pointer-events: none;
+}
+.cross-marks::before { content: '+'; top: 10px; left: 12px; }
+.cross-marks::after { content: '+'; bottom: 10px; right: 12px; }
+
+/* 거대 고스트 타이포 — 캐릭터 영문명 배경 (공식 사이트 문법) */
+.ghost-text {
+  position: absolute;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(22, 21, 15, 0.07);
+  user-select: none;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+/* ── 수면 워시(glass-float) — 옅은 화이트 워시 + 잉크 헤어라인 ── */
+.glass-float {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(22, 21, 15, 0.07);
+  box-shadow: 0 6px 22px -12px rgba(22, 21, 15, 0.14);
+}
+
+/* ── 이미지 타일 — 캐릭터/무기 공통 ──
+   --el 커스텀 프로퍼티로 속성색 호버 글로우 주입 */
+.tile {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(22, 21, 15, 0.07);
+  box-shadow: 0 6px 22px -12px rgba(22, 21, 15, 0.14);
+  transition:
+    transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+.tile:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--el, var(--color-primary)) 40%, rgba(22, 21, 15, 0.07));
+  box-shadow: 0 14px 36px -10px color-mix(in srgb, var(--el, var(--color-primary)) 30%, transparent);
+}
+.tile-img {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.tile:hover .tile-img {
+  transform: scale(1.06);
+}
+
+/* 희귀도 그라디언트 배경 (5★ 골드 / 4★ 퍼플 / 3★ 블루) */
+.bg-r5 { background: linear-gradient(168deg, #FFFDF4 0%, #F7E8B8 100%); }
+.bg-r4 { background: linear-gradient(168deg, #FBF9FF 0%, #E3D4F9 100%); }
+.bg-r3 { background: linear-gradient(168deg, #F6FAFF 0%, #D5E7F7 100%); }
+
+/* 하단 희귀도 글로우 — 라이트 테마용 (테두리 대신 바닥광) */
+.glow-r5::after,
+.glow-r4::after,
+.glow-r3::after {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 38%;
+  pointer-events: none;
+}
+.glow-r5::after { background: linear-gradient(0deg, rgba(242, 199, 68, 0.55), transparent); }
+.glow-r4::after { background: linear-gradient(0deg, rgba(180, 107, 255, 0.38), transparent); }
+.glow-r3::after { background: linear-gradient(0deg, rgba(65, 174, 251, 0.32), transparent); }
+
+/* 속성 컬러 라디얼 백드롭 — 컷아웃 초상 뒤 */
+.el-backdrop {
+  background:
+    radial-gradient(120% 90% at 50% 100%, color-mix(in srgb, var(--el, var(--color-primary)) 30%, transparent) 0%, transparent 65%),
+    linear-gradient(168deg, var(--color-surface) 0%, color-mix(in srgb, var(--el, var(--color-primary)) 10%, var(--color-surface)) 100%);
+}
+
+/* ════════ 파동 디자인 시스템 — 빛굴절 시트 + 물결 산란 ════════ */
+
+/* 워터 시인 — 호버 시 물을 통과한 빛줄기가 카드 표면을 훑는다.
+   background-position 트랜지션이라 overflow 클리핑이 필요 없다. */
+.tile::after,
+.coast-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    115deg,
+    transparent 36%,
+    rgba(255, 255, 255, 0.55) 46%,
+    rgba(45, 196, 232, 0.14) 52%,
+    rgba(242, 199, 68, 0.10) 56%,
+    transparent 64%
+  );
+  background-size: 260% 100%;
+  background-position: 130% 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: background-position 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+}
+.tile:hover::after,
+.coast-card:hover::after {
+  background-position: -30% 0;
+  opacity: 1;
+}
+
+/* 물결 산란 — 선택한 카드에서 파면이 퍼지며 나머지가 물결에 흩어진다 */
+@keyframes scatter-out {
+  to {
+    transform: translate(var(--sx, 0px), var(--sy, 0px)) scale(0.9);
+    opacity: 0;
+    filter: blur(2px);
+  }
+}
+
+/* 선택된 카드 — 살짝 떠오르며 남는다 */
+@keyframes scatter-stay {
+  30% { transform: scale(1.04); }
+  to { transform: scale(1.02); opacity: 0; }
+}
+
+/* 물결 스태거 진입 — 필터 변경 시 카드들이 파도처럼 다시 떠오른다 */
+@keyframes wave-in {
+  from { opacity: 0; transform: translateY(14px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* 파형이 좌→우로 그려진다 (DPS 파형 시각화) */
+@keyframes dash-flow {
+  from { stroke-dashoffset: 1600; }
+  to { stroke-dashoffset: 0; }
+}

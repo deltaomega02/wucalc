@@ -1,0 +1,8 @@
+{
+  "id": "default-lv90",
+  "name": { "ko": "기본 적 (Lv.90)", "en": "Default Enemy (Lv.90)" },
+  "level": 90,
+  "def": 1520,
+  "resistance": {},
+  "baseResistance": 0.10
+}
