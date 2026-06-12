@@ -1,5 +1,7 @@
 # WuCalc — 명조(Wuthering Waves) 데미지 계산기
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
 게임의 복잡한 데미지 공식을 정밀 구현한 계산기 웹앱.
 캐릭터 49종 · 무기 104종의 메커니즘을 TypeScript 타입 시스템으로 정량 모델링하고,
 **모든 수식을 단위 테스트 167개로 공식 자료와 교차 검증**한다.
