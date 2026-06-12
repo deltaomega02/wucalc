@@ -4,7 +4,7 @@
 
 게임의 복잡한 데미지 공식을 정밀 구현한 계산기 웹앱.
 캐릭터 49종 · 무기 104종의 메커니즘을 TypeScript 타입 시스템으로 정량 모델링하고,
-**모든 수식을 단위 테스트 167개로 공식 자료와 교차 검증**한다.
+**모든 수식을 단위 테스트 184개로 공식 자료와 교차 검증**한다.
 
 AI 도구를 적극 활용해 개발하되, 품질은 테스트와 데이터 정합성 검사로 담보하는 개발 방식의 실례.
 
@@ -14,7 +14,7 @@ AI 도구를 적극 활용해 개발하되, 품질은 테스트와 데이터 정
 |---|---|---|
 | 프레임워크 | Next.js (App Router), React | SSR 웹앱 |
 | 언어 | TypeScript (strict 모드) | 게임 데이터·수식의 타입 안전성 |
-| 테스트 | Vitest — 단위·시나리오·E2E 167개 | 데미지 공식 회귀 방지 |
+| 테스트 | Vitest — 단위·시나리오·E2E 184개 | 데미지 공식 회귀 방지 |
 | OCR | Tesseract (한/영 traineddata) | 게임 스크린샷에서 스탯 자동 인식 (클라이언트 처리) |
 | i18n | 메시지 카탈로그 (ko/en) | 다국어 지원 |
 | 배포 | Docker, docker-compose | 컨테이너 셀프호스팅 |
@@ -69,7 +69,7 @@ wucalc/
 │   ├── components/     # UI 컴포넌트
 │   ├── lib/
 │   │   ├── calc/       # 계산 엔진 (damage, stats, passives, party, echo, boss)
-│   │   │   └── __tests__/   # 테스트 167개 (8개 파일)
+│   │   │   └── __tests__/   # 테스트 184개 (8개 파일)
 │   │   └── ocr/        # Tesseract 스탯 인식
 │   ├── data/           # 캐릭터·무기·체인 정량 데이터
 │   ├── stores/         # 클라이언트 상태
@@ -83,7 +83,7 @@ wucalc/
 ```bash
 npm install
 npm run dev          # 개발 서버
-npm test             # 단위 테스트 (167개)
+npm test             # 단위 테스트 (184개)
 npm run validate-data  # 데이터 정합성 검사
 npx tsc --noEmit     # 타입 체크 (strict, 클린 유지)
 ```
